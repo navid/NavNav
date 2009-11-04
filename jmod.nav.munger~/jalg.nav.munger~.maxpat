@@ -3111,7 +3111,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "smooth" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"rect" : [ 1378.0, 85.0, 344.0, 339.0 ],
@@ -5546,7 +5546,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 96.0, 431.0, 404.0, 20.0 ],
-					"text" : "munger1~ #1 2 200 navnav",
+					"text" : "disis_munger~ #1 2 200 navnav",
 					"varname" : "munger"
 				}
 
