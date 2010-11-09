@@ -6,8 +6,8 @@
 >
   <preset number='1' name='default'>
     <item name='audio/freeze' type='boolean' priority='0'>0</item>
-    <item name='audio/mix' type='decimal' priority='0'>73.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='audio/mix' type='decimal' priority='0'>50.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>1</item>
     <item name='buff/choice' type='boolean' priority='0'>0</item>
     <item name='buff/file' type='string' priority='0'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif</item>
     <item name='buff/rand' type='boolean' priority='0'>0</item>
@@ -16,24 +16,25 @@
     <item name='depth' type='integer' priority='6'>0</item>
     <item name='direction' type='integer' priority='0'>0</item>
     <item name='folder' type='string' priority='3'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/</item>
+    <item name='maxDelay' type='integer' priority='0'>10000</item>
     <item name='mod/delay' type='decimal' priority='0'>0.000000</item>
-    <item name='mod/gain' type='decimal' priority='0'>0</item>
-    <item name='mod/pitch' type='decimal' priority='0'>0</item>
-    <item name='mod/pitchVar' type='decimal' priority='0'>0</item>
+    <item name='mod/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='mod/pitch' type='decimal' priority='0'>0.000000</item>
+    <item name='mod/pitchVar' type='decimal' priority='0'>0.000000</item>
     <item name='mod/rate' type='decimal' priority='0'>0.000000</item>
-    <item name='mod/rateVar' type='decimal' priority='0'>0</item>
-    <item name='mod/size' type='decimal' priority='0'>0</item>
-    <item name='mod/sizeVar' type='decimal' priority='0'>0</item>
+    <item name='mod/rateVar' type='decimal' priority='0'>0.000000</item>
+    <item name='mod/size' type='decimal' priority='0'>0.000000</item>
+    <item name='mod/sizeVar' type='decimal' priority='0'>0.000000</item>
     <item name='numChannels' type='integer' priority='1'>2</item>
     <item name='pan' type='boolean' priority='0'>0</item>
-    <item name='param/delay' type='decimal' priority='0'>0</item>
-    <item name='param/gainVar' type='decimal' priority='0'>0.005000</item>
-    <item name='param/gain' type='decimal' priority='0'>0.754592</item>
+    <item name='param/delay' type='decimal' priority='0'>900.304443</item>
+    <item name='param/gainVar' type='decimal' priority='0'>0.000000</item>
+    <item name='param/gain' type='decimal' priority='0'>0.535714</item>
     <item name='param/pitch' type='decimal' priority='0'>1.000000</item>
-    <item name='param/pitchVar' type='decimal' priority='0'>0.000500</item>
+    <item name='param/pitchVar' type='decimal' priority='0'>0.000000</item>
     <item name='param/rate' type='decimal' priority='0'>0.000000</item>
-    <item name='param/rateVar' type='decimal' priority='0'>15.000000</item>
-    <item name='param/size' type='decimal' priority='0'>500.000000</item>
+    <item name='param/rateVar' type='decimal' priority='0'>12.000000</item>
+    <item name='param/size' type='decimal' priority='0'>400.000000</item>
     <item name='param/sizeVar' type='decimal' priority='0'>100.000000</item>
     <item name='param/spread' type='decimal' priority='0'>1.000000</item>
     <item name='ramp' type='integer' priority='0'>6</item>
@@ -45,6 +46,6 @@
     <item name='view/color/toolbarText' type='array' priority='0'>0</item>
     <item name='view/freeze' type='boolean' priority='0'>0</item>
     <item name='view/size' type='array' priority='0'>300 105 </item>
-    <item name='voices' type='integer' priority='0'>16</item>
+    <item name='voices' type='integer' priority='0'>18</item>
   </preset>
 </jamoma>

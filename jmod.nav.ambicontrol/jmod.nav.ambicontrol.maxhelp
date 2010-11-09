@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 117.0, 186.0, 663.0, 496.0 ],
+		"rect" : [ 377.0, 44.0, 665.0, 491.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 117.0, 186.0, 663.0, 496.0 ],
+		"defrect" : [ 377.0, 44.0, 665.0, 491.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,6 +20,51 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "ambicontrol.parallel" ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.nav.ambicontrol.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 313.0, 75.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 692.0, 86.0, 300.0, 175.0 ],
+					"varname" : "jmod.nav.ambicontrol2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "ambicontrol" ],
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.nav.ambicontrol.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 12.0, 75.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 300.0, 175.0 ],
+					"varname" : "jmod.nav.ambicontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "ambicontrol.serial" ],
+					"id" : "obj-11",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.nav.ambicontrol.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 12.0, 302.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 50.0, 262.0, 300.0, 175.0 ],
+					"varname" : "jmod.nav.ambicontrol3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -27,8 +72,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 324.0, 113.0, 20.0 ],
-					"text" : "<-- activate points"
+					"patching_rect" : [ 312.0, 329.0, 156.0, 20.0 ],
+					"text" : "<-- activate points to control"
 				}
 
 			}
@@ -42,8 +87,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 418.0, 157.0, 62.0 ],
-					"text" : "set index to a point number and control the center with that point inside \"directIndexControl\""
+					"patching_rect" : [ 310.0, 416.0, 176.0, 62.0 ],
+					"text" : "set index to a number and control the center of all points with that point inside \"directIndexControl\""
 				}
 
 			}
@@ -53,11 +98,12 @@
 					"fontsize" : 12.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 305.0, 271.0, 185.0, 20.0 ],
-					"text" : "connect them in parallel or serial"
+					"patching_rect" : [ 309.0, 251.0, 332.0, 34.0 ],
+					"text" : "connect them in serial or leave uncconected for parallel behaviour"
 				}
 
 			}
@@ -68,8 +114,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 479.0, 310.0, 161.0, 161.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 20.0, 20.0 ]
+					"patching_rect" : [ 493.0, 275.0, 161.0, 161.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
+					"varname" : "paul"
 				}
 
 			}
@@ -82,54 +129,9 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 663.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 665.0, 70.0 ],
 					"prototypename" : "bphelp",
 					"varname" : "maxhelpui"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "ambicontrol.serial" ],
-					"id" : "obj-11",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.nav.ambicontrol.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 301.0, 300.0, 175.0 ],
-					"presentation_rect" : [ 5.0, 217.0, 300.0, 175.0 ],
-					"varname" : "jmod.nav.ambicontrol[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "ambicontrol.parallel" ],
-					"id" : "obj-3",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.nav.ambicontrol.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 340.0, 89.0, 300.0, 175.0 ],
-					"presentation_rect" : [ 632.0, 26.0, 300.0, 175.0 ],
-					"varname" : "jmod.nav.ambicontrol[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "ambicontrol" ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.nav.ambicontrol.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 89.0, 300.0, 175.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ],
-					"varname" : "jmod.nav.ambicontrol"
 				}
 
 			}

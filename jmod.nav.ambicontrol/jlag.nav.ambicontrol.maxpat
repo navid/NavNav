@@ -363,13 +363,13 @@
 ,
 					"patching_rect" : [ 251.766403, 391.707397, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"default_fontname" : "Arial"
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p record"
@@ -674,18 +674,18 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 85.0, 366.0, 149.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"index" : 0,
 						"interval" : 100,
+						"volume_type" : 0,
+						"volume" : [ 2.0, 2.0, 2.0 ],
+						"connect" : "",
 						"volume_color" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"show_volume" : 0,
-						"connect" : "",
-						"interpolation" : 0,
-						"volume_type" : 0,
 						"loop" : 0,
-						"volume" : [ 2.0, 2.0, 2.0 ],
-						"index" : 0
+						"interpolation" : 0
 					}
 ,
-					"text" : "ambicontrol 0. 0. 0."
+					"text" : "ambicontrol 0 0. 0. 0."
 				}
 
 			}
@@ -763,7 +763,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 224.5, 403.0, 50.5, 403.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 

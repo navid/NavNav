@@ -13,7 +13,7 @@
     <item name='directIndexControl' type='generic' priority='0'>0</item>
     <item name='index' type='integer' priority='0'>0</item>
     <item name='method' type='integer' priority='0'>1</item>
-    <item name='points' type='array' priority='0'>33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 0 </item>
+    <item name='points' type='array' priority='0'>666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 </item>
     <item name='randomStability' type='integer' priority='0'>3000</item>
     <item name='trajectory/adjust' type='string' priority='0'>fit-to-box</item>
     <item name='trajectory/fraction' type='decimal' priority='0'>0.000000</item>
