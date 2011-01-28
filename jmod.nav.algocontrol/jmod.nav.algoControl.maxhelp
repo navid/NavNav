@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 498.0, 228.0, 392.0, 294.0 ],
+		"rect" : [ 868.0, 177.0, 392.0, 301.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 498.0, 228.0, 392.0, 294.0 ],
+		"defrect" : [ 868.0, 177.0, 392.0, 301.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -296,13 +296,13 @@
 ,
 					"patching_rect" : [ 155.0, 157.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 13.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p adapt"
@@ -317,7 +317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "int", "" ],
-					"patching_rect" : [ 155.0, 182.0, 100.0, 100.0 ]
+					"patching_rect" : [ 158.0, 182.0, 100.0, 101.0 ]
 				}
 
 			}

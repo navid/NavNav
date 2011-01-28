@@ -5,17 +5,17 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='freq1' type='decimal' priority='0' mixweight='1'>7.000000</item>
-    <item name='freq2' type='decimal' priority='0' mixweight='1'>8.500000</item>
-    <item name='method' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='metro' type='integer' priority='0' mixweight='1'>20</item>
-    <item name='on' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='scale' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='interpolate' type='decimal' priority='0' mixweight='1'>200.000000</item>
+    <item name='max' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='min' type='decimal' priority='0' mixweight='1'>-1.000000</item>
+    <item name='on' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='rate/max' type='decimal' priority='0' mixweight='1'>2000.000000</item>
+    <item name='rate/min' type='decimal' priority='0' mixweight='1'>500.000000</item>
     <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/size' type='array' priority='0'>300 70 </item>
+    <item name='view/size' type='array' priority='0'>150 70 </item>
   </preset>
 </jamoma>
