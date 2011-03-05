@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 868.0, 177.0, 392.0, 301.0 ],
+		"rect" : [ 1081.0, 56.0, 392.0, 322.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 868.0, 177.0, 392.0, 301.0 ],
+		"defrect" : [ 1081.0, 56.0, 392.0, 322.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -27,7 +27,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 157.0, 83.0, 17.0 ],
+					"patching_rect" : [ 258.0, 188.0, 83.0, 17.0 ],
 					"text" : "xyz 1 $1 $2 0."
 				}
 
@@ -41,7 +41,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 258.0, 182.0, 100.0, 100.0 ],
+					"patching_rect" : [ 258.0, 213.0, 100.0, 100.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 100.0, 100.0 ]
 				}
 
@@ -55,7 +55,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 157.0, 39.0, 19.0 ],
+					"patching_rect" : [ 209.0, 188.0, 39.0, 19.0 ],
 					"text" : "clear"
 				}
 
@@ -294,15 +294,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 155.0, 157.0, 51.0, 20.0 ],
+					"patching_rect" : [ 155.0, 188.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 13.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"fontsize" : 13.0,
+						"default_fontsize" : 13.0,
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p adapt"
@@ -317,7 +317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "int", "" ],
-					"patching_rect" : [ 158.0, 182.0, 100.0, 101.0 ]
+					"patching_rect" : [ 158.0, 213.0, 100.0, 101.0 ]
 				}
 
 			}
@@ -345,8 +345,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 24.0, 72.0, 150.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ]
+					"patching_rect" : [ 24.0, 72.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
 				}
 
 			}
@@ -355,7 +355,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 164.5, 152.5, 267.5, 152.5 ],
+					"midpoints" : [ 164.5, 182.5, 267.5, 182.5 ],
 					"source" : [ "obj-1", 1 ]
 				}
 

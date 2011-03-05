@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 245.0, 75.0, 640.0, 271.0 ],
+		"rect" : [ 174.0, 44.0, 409.0, 241.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 245.0, 75.0, 640.0, 271.0 ],
+		"defrect" : [ 174.0, 44.0, 409.0, 241.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -19,6 +19,23 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "@name", "jmod.nav.rand", "@description", "random number generator with a controllable range and rate of iteration." ],
+					"bgmode" : 1,
+					"id" : "obj-136",
+					"maxclass" : "bpatcher",
+					"name" : "jcom.maxhelpui.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 409.0, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.0, 60.0, 1040.0, 70.0 ],
+					"prototypename" : "bphelp",
+					"varname" : "maxhelpui"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -41,8 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 12.0, 212.0, 50.0, 21.0 ],
-					"presentation_rect" : [ 262.0, 294.0, 0.0, 0.0 ]
+					"patching_rect" : [ 12.0, 212.0, 50.0, 21.0 ]
 				}
 
 			}
@@ -85,23 +101,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 84.0, 150.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "@name", "jmod.nav.rand", "@description", "random number generator with a controllable range and rate of iteration." ],
-					"bgmode" : 1,
-					"id" : "obj-136",
-					"maxclass" : "bpatcher",
-					"name" : "jcom.maxhelpui.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 640.0, 70.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 1040.0, 70.0 ],
-					"prototypename" : "bphelp",
-					"varname" : "maxhelpui"
 				}
 
 			}

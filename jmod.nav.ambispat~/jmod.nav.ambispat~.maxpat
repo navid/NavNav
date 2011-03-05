@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 661.0, 392.0, 1039.0, 456.0 ],
+		"rect" : [ 110.0, 627.0, 1009.0, 378.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 661.0, 392.0, 1039.0, 456.0 ],
+		"defrect" : [ 110.0, 627.0, 1009.0, 378.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 13.0,
@@ -19,6 +19,21 @@
 		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-8",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 55.0, 211.0, 50.0, 49.0 ],
+					"text" : "/view/size 300 70"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -170,11 +185,11 @@
 ,
 									"patching_rect" : [ 340.0, 30.0, 100.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -334,11 +349,11 @@
 ,
 					"patching_rect" : [ 650.0, 9.0, 53.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -698,11 +713,11 @@
 ,
 									"patching_rect" : [ 15.0, 90.0, 42.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -1711,11 +1726,11 @@
 ,
 									"patching_rect" : [ 75.0, 90.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -1863,11 +1878,11 @@
 ,
 									"patching_rect" : [ 315.0, 90.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -2139,11 +2154,11 @@
 ,
 									"patching_rect" : [ 240.0, 90.0, 65.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -2917,11 +2932,11 @@
 ,
 									"patching_rect" : [ 150.0, 90.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -3010,11 +3025,11 @@
 ,
 					"patching_rect" : [ 545.0, 9.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -3333,11 +3348,11 @@
 ,
 					"patching_rect" : [ 482.0, 9.0, 54.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -4932,11 +4947,11 @@
 ,
 					"patching_rect" : [ 422.0, 9.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -5070,26 +5085,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 119.0, 131.0, 19.0 ],
-					"text" : "jcom.parameterCreate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "open" ],
-					"patching_rect" : [ 386.0, 314.0, 43.0, 19.0 ],
+					"patching_rect" : [ 367.0, 252.0, 43.0, 19.0 ],
 					"text" : "t open"
 				}
 
@@ -5103,7 +5104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 337.0, 51.0, 19.0 ],
+					"patching_rect" : [ 367.0, 275.0, 51.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -5118,10 +5119,10 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 214.0, 44.0, 153.0, 196.0 ],
+						"rect" : [ 214.0, 44.0, 149.0, 188.0 ],
 						"bgcolor" : [ 0.792157, 0.792157, 0.792157, 1.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 214.0, 44.0, 153.0, 196.0 ],
+						"defrect" : [ 214.0, 44.0, 149.0, 188.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5148,7 +5149,7 @@
 									"patching_rect" : [ 43.0, 329.0, 185.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 7.0, 163.0, 83.0, 32.0 ],
+									"presentation_rect" : [ 7.0, 156.0, 83.0, 32.0 ],
 									"text" : "numSpeakers recommended:"
 								}
 
@@ -5168,7 +5169,7 @@
 									"outlettype" : [ "int", "bang" ],
 									"patching_rect" : [ 242.0, 330.0, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 89.0, 171.0, 35.0, 20.0 ],
+									"presentation_rect" : [ 89.0, 164.0, 35.0, 20.0 ],
 									"triangle" : 0
 								}
 
@@ -5276,7 +5277,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 188.0, 51.0, 602.0, 21.0 ],
-									"text" : "jcom.parameter encoding/type @type boolean @repetitions/allow 0 @description \"hoa SN or N format\"",
+									"text" : "jcom.parameter encoding/type @type boolean @repetitions/allow 1 @description \"hoa SN or N format\"",
 									"varname" : "/encoding/dimention[1]"
 								}
 
@@ -5535,7 +5536,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 188.0, 25.0, 595.0, 21.0 ],
-									"text" : "jcom.parameter encoding/dimention @type boolean @repetitions/allow 0 @description \"hoa 2d or 3d\"",
+									"text" : "jcom.parameter encoding/dimention @type boolean @repetitions/allow 1 @description \"hoa 2d or 3d\"",
 									"varname" : "/encoding/dimention"
 								}
 
@@ -5545,12 +5546,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-34",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 188.0, 78.0, 871.0, 21.0 ],
-									"text" : "jcom.parameter encoding/order @type integer @repetitions/allow 0 @description \"define hoa order\" @range/bounds 0. 4. @range/clipmode both",
+									"patching_rect" : [ 188.0, 78.0, 588.0, 36.0 ],
+									"text" : "jcom.parameter encoding/order @type integer @repetitions/allow 1 @description \"define hoa order\" @range/bounds 0. 4. @range/clipmode both",
 									"varname" : "/encoding/dimention[2]"
 								}
 
@@ -5560,12 +5562,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-35",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 188.0, 103.0, 892.0, 21.0 ],
-									"text" : "jcom.parameter numSources @type integer @repetitions/allow 0 @description \"number of input channels\" @range/bounds 0. 32. @range/clipmode both",
+									"patching_rect" : [ 188.0, 103.0, 565.0, 36.0 ],
+									"text" : "jcom.parameter numSources @type integer @repetitions/allow 1 @description \"number of input channels\" @range/bounds 0. 32. @range/clipmode both",
 									"varname" : "/numSources"
 								}
 
@@ -5581,7 +5584,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 188.0, 127.0, 602.0, 36.0 ],
-									"text" : "jcom.parameter numReverb @type integer @repetitions/allow 0 @description \"number of independant reverbs\" @range/bounds 0. 8. @range/clipmode both",
+									"text" : "jcom.parameter numReverb @type integer @repetitions/allow 1 @description \"number of independant reverbs\" @range/bounds 0. 8. @range/clipmode both",
 									"varname" : "/numReverb"
 								}
 
@@ -5762,13 +5765,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 386.0, 361.0, 48.0, 19.0 ],
+					"patching_rect" : [ 367.0, 299.0, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -5788,7 +5791,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 377.0, 289.0, 37.0, 18.0 ],
+					"patching_rect" : [ 358.0, 227.0, 37.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 22.0, 37.0, 18.0 ],
 					"rounded" : 8.0,
@@ -6070,11 +6073,11 @@
 ,
 									"patching_rect" : [ 330.0, 283.0, 72.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -6310,11 +6313,11 @@
 ,
 									"patching_rect" : [ 314.0, 369.0, 71.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -6739,11 +6742,11 @@
 ,
 									"patching_rect" : [ 191.0, 90.0, 72.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -6979,11 +6982,11 @@
 ,
 									"patching_rect" : [ 175.0, 176.0, 71.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0
 									}
@@ -7253,7 +7256,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 175.0, 204.0, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 5, 44, 842, 197, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -8138,13 +8141,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 303.0, 328.0, 72.0, 19.0 ],
+					"patching_rect" : [ 284.0, 266.0, 72.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"fontname" : "Verdana",
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -8162,7 +8165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.0, 297.0, 49.0, 19.0 ],
+					"patching_rect" : [ 284.0, 235.0, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -8176,7 +8179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "open" ],
-					"patching_rect" : [ 303.0, 277.0, 41.0, 19.0 ],
+					"patching_rect" : [ 284.0, 215.0, 41.0, 19.0 ],
 					"text" : "t open"
 				}
 
@@ -8190,7 +8193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 303.0, 256.0, 192.0, 19.0 ],
+					"patching_rect" : [ 284.0, 194.0, 192.0, 19.0 ],
 					"text" : "jcom.oscroute /view/panel"
 				}
 
@@ -8204,7 +8207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 42.0, 217.0, 333.0, 19.0 ],
+					"patching_rect" : [ 23.0, 155.0, 333.0, 19.0 ],
 					"text" : "jcom.hub @description \"IRCAM SPAT with dynamic HOA output\"",
 					"varname" : "jcom.hub"
 				}
@@ -8219,7 +8222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 161.0, 257.0, 48.0, 19.0 ],
+					"patching_rect" : [ 142.0, 195.0, 48.0, 19.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -8233,7 +8236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 172.0, 198.0, 17.0 ],
+					"patching_rect" : [ 82.0, 110.0, 198.0, 17.0 ],
 					"text" : "/preset/store 1 default, /preset/write"
 				}
 
@@ -8246,7 +8249,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 266.0, 327.0, 25.0, 25.0 ]
+					"patching_rect" : [ 247.0, 265.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -8257,7 +8260,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 402.0, 25.0, 25.0 ]
+					"patching_rect" : [ 247.0, 340.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -8270,7 +8273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 160.0, 363.0, 125.0, 19.0 ],
+					"patching_rect" : [ 141.0, 301.0, 125.0, 19.0 ],
 					"text" : "jalg.nav.ambispat~"
 				}
 
@@ -8284,7 +8287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 147.0, 160.0, 17.0 ],
+					"patching_rect" : [ 62.0, 85.0, 160.0, 17.0 ],
 					"text" : "/documentation/generate"
 				}
 
@@ -8297,7 +8300,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 157.0, 25.0, 25.0 ]
+					"patching_rect" : [ 22.0, 95.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -8308,7 +8311,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 402.0, 25.0, 25.0 ]
+					"patching_rect" : [ 22.0, 340.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -8351,7 +8354,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 110.5, 199.5, 51.5, 199.5 ],
+					"midpoints" : [ 91.5, 137.5, 32.5, 137.5 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -8387,7 +8390,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 485.5, 357.0, 395.5, 357.0 ],
+					"midpoints" : [ 466.5, 295.0, 376.5, 295.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -8398,15 +8401,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-145", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -8423,7 +8417,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 170.5, 283.0, 288.5, 283.0, 288.5, 249.0, 312.5, 249.0 ],
+					"midpoints" : [ 151.5, 221.0, 269.5, 221.0, 269.5, 187.0, 293.5, 187.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -8441,7 +8435,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 169.5, 397.0, 147.0, 397.0, 147.0, 306.0, 300.0, 306.0, 300.0, 320.0, 312.5, 320.0 ],
+					"midpoints" : [ 150.5, 335.0, 128.0, 335.0, 128.0, 244.0, 281.0, 244.0, 281.0, 258.0, 293.5, 258.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -8459,7 +8453,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 169.5, 388.0, 372.0, 388.0, 372.0, 357.0, 395.5, 357.0 ],
+					"midpoints" : [ 150.5, 326.0, 353.0, 326.0, 353.0, 295.0, 376.5, 295.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -8468,7 +8462,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 90.5, 196.0, 51.5, 196.0 ],
+					"midpoints" : [ 71.5, 134.0, 32.5, 134.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -8495,7 +8489,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 51.5, 319.5, 312.5, 319.5 ],
+					"midpoints" : [ 32.5, 257.5, 293.5, 257.5 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -8503,6 +8497,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-30", 0 ]
@@ -8556,105 +8559,105 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14::obj-41::obj-79" : [ "source presence[26]", "presnc", 0 ],
-			"obj-14::obj-39::obj-79" : [ "source presence[23]", "presnc", 0 ],
-			"obj-14::obj-28::obj-81" : [ "dropMode[11]", "dropMode", 0 ],
-			"obj-14::obj-35::obj-79" : [ "source presence[19]", "presnc", 0 ],
-			"obj-14::obj-36::obj-81" : [ "dropMode[20]", "dropMode", 0 ],
-			"obj-14::obj-17::obj-79" : [ "source presence[9]", "presnc", 0 ],
 			"obj-14::obj-35::obj-114" : [ "room presence[19]", "room", 0 ],
-			"obj-14::obj-34::obj-79" : [ "source presence[18]", "presnc", 0 ],
-			"obj-14::obj-41::obj-81" : [ "dropMode[26]", "dropMode", 0 ],
-			"obj-14::obj-7::obj-81" : [ "dropMode[29]", "dropMode", 0 ],
-			"obj-14::obj-13::obj-81" : [ "dropMode[5]", "dropMode", 0 ],
-			"obj-14::obj-9::obj-79" : [ "source presence[31]", "presnc", 0 ],
-			"obj-14::obj-30::obj-114" : [ "room presence[14]", "room", 0 ],
-			"obj-14::obj-38::obj-79" : [ "source presence[22]", "presnc", 0 ],
-			"obj-14::obj-37::obj-81" : [ "dropMode[21]", "dropMode", 0 ],
-			"obj-14::obj-36::obj-79" : [ "source presence[20]", "presnc", 0 ],
-			"obj-14::obj-31::obj-114" : [ "room presence[15]", "room", 0 ],
-			"obj-14::obj-38::obj-114" : [ "room presence[22]", "room", 0 ],
-			"obj-14::obj-14::obj-114" : [ "room presence[6]", "room", 0 ],
-			"obj-23::obj-3" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-14::obj-29::obj-79" : [ "source presence[12]", "presnc", 0 ],
-			"obj-14::obj-42::obj-79" : [ "source presence[27]", "presnc", 0 ],
-			"obj-14::obj-14::obj-81" : [ "dropMode[6]", "dropMode", 0 ],
-			"obj-14::obj-31::obj-79" : [ "source presence[15]", "presnc", 0 ],
-			"obj-14::obj-18::obj-79" : [ "source presence[10]", "presnc", 0 ],
-			"obj-14::obj-26::obj-81" : [ "dropMode[32]", "dropMode", 0 ],
-			"obj-14::obj-15::obj-81" : [ "dropMode[7]", "dropMode", 0 ],
-			"obj-14::obj-42::obj-114" : [ "room presence[27]", "room", 0 ],
-			"obj-14::obj-17::obj-114" : [ "room presence[9]", "room", 0 ],
-			"obj-14::obj-58::obj-114" : [ "room presence[33]", "room", 0 ],
-			"obj-23::obj-26" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-14::obj-40::obj-79" : [ "source presence[25]", "presnc", 0 ],
-			"obj-14::obj-16::obj-79" : [ "source presence[8]", "presnc", 0 ],
-			"obj-14::obj-5::obj-81" : [ "dropMode[13]", "dropMode", 0 ],
-			"obj-14::obj-13::obj-79" : [ "source presence[5]", "presnc", 0 ],
-			"obj-14::obj-8::obj-79" : [ "source presence[30]", "presnc", 0 ],
-			"obj-14::obj-33::obj-114" : [ "room presence[17]", "room", 0 ],
-			"obj-14::obj-43::obj-79" : [ "source presence[28]", "presnc", 0 ],
-			"obj-14::obj-16::obj-114" : [ "room presence[8]", "room", 0 ],
-			"obj-14::obj-11::obj-81" : [ "dropMode[3]", "dropMode", 0 ],
-			"obj-14::obj-15::obj-114" : [ "room presence[7]", "room", 0 ],
 			"obj-14::obj-32::obj-79" : [ "source presence[16]", "presnc", 0 ],
-			"obj-14::obj-9::obj-81" : [ "dropMode[31]", "dropMode", 0 ],
+			"obj-14::obj-30::obj-81" : [ "dropMode[14]", "dropMode", 0 ],
+			"obj-14::obj-7::obj-114" : [ "room presence[29]", "room", 0 ],
+			"obj-14::obj-36::obj-114" : [ "room presence[20]", "room", 0 ],
+			"obj-14::obj-13::obj-114" : [ "room presence[5]", "room", 0 ],
+			"obj-14::obj-29::obj-81" : [ "dropMode[12]", "dropMode", 0 ],
+			"obj-14::obj-39::obj-81" : [ "dropMode[23]", "dropMode", 0 ],
+			"obj-14::obj-11::obj-81" : [ "dropMode[3]", "dropMode", 0 ],
+			"obj-14::obj-14::obj-79" : [ "source presence[6]", "presnc", 0 ],
+			"obj-14::obj-31::obj-79" : [ "source presence[15]", "presnc", 0 ],
+			"obj-14::obj-37::obj-114" : [ "room presence[21]", "room", 0 ],
+			"obj-14::obj-7::obj-81" : [ "dropMode[29]", "dropMode", 0 ],
+			"obj-14::obj-32::obj-81" : [ "dropMode[16]", "dropMode", 0 ],
+			"obj-14::obj-41::obj-79" : [ "source presence[26]", "presnc", 0 ],
+			"obj-14::obj-38::obj-79" : [ "source presence[22]", "presnc", 0 ],
+			"obj-14::obj-6::obj-81" : [ "dropMode[24]", "dropMode", 0 ],
+			"obj-14::obj-30::obj-79" : [ "source presence[14]", "presnc", 0 ],
+			"obj-14::obj-33::obj-114" : [ "room presence[17]", "room", 0 ],
+			"obj-14::obj-58::obj-79" : [ "source presence[33]", "presnc", 0 ],
+			"obj-14::obj-11::obj-114" : [ "room presence[3]", "room", 0 ],
+			"obj-14::obj-31::obj-81" : [ "dropMode[15]", "dropMode", 0 ],
+			"obj-14::obj-28::obj-114" : [ "room presence[11]", "room", 0 ],
+			"obj-14::obj-15::obj-114" : [ "room presence[7]", "room", 0 ],
+			"obj-14::obj-36::obj-81" : [ "dropMode[20]", "dropMode", 0 ],
+			"obj-14::obj-16::obj-81" : [ "dropMode[8]", "dropMode", 0 ],
+			"obj-23::obj-28" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-14::obj-26::obj-114" : [ "room presence[32]", "room", 0 ],
+			"obj-14::obj-16::obj-79" : [ "source presence[8]", "presnc", 0 ],
+			"obj-14::obj-35::obj-81" : [ "dropMode[19]", "dropMode", 0 ],
+			"obj-14::obj-40::obj-81" : [ "dropMode[25]", "dropMode", 0 ],
+			"obj-14::obj-42::obj-114" : [ "room presence[27]", "room", 0 ],
+			"obj-14::obj-33::obj-81" : [ "dropMode[17]", "dropMode", 0 ],
+			"obj-14::obj-41::obj-114" : [ "room presence[26]", "room", 0 ],
+			"obj-14::obj-8::obj-81" : [ "dropMode[30]", "dropMode", 0 ],
+			"obj-14::obj-43::obj-79" : [ "source presence[28]", "presnc", 0 ],
+			"obj-14::obj-43::obj-81" : [ "dropMode[28]", "dropMode", 0 ],
+			"obj-14::obj-40::obj-79" : [ "source presence[25]", "presnc", 0 ],
+			"obj-23::obj-26" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-14::obj-38::obj-81" : [ "dropMode[22]", "dropMode", 0 ],
+			"obj-14::obj-29::obj-114" : [ "room presence[12]", "room", 0 ],
+			"obj-14::obj-9::obj-114" : [ "room presence[31]", "room", 0 ],
+			"obj-23::obj-3" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-14::obj-5::obj-79" : [ "source presence[13]", "presnc", 0 ],
+			"obj-14::obj-39::obj-79" : [ "source presence[23]", "presnc", 0 ],
+			"obj-14::obj-18::obj-79" : [ "source presence[10]", "presnc", 0 ],
+			"obj-14::obj-18::obj-114" : [ "room presence[10]", "room", 0 ],
+			"obj-14::obj-40::obj-114" : [ "room presence[25]", "room", 0 ],
+			"obj-14::obj-28::obj-81" : [ "dropMode[11]", "dropMode", 0 ],
+			"obj-14::obj-43::obj-114" : [ "room presence[28]", "room", 0 ],
+			"obj-14::obj-31::obj-114" : [ "room presence[15]", "room", 0 ],
+			"obj-14::obj-12::obj-114" : [ "room presence[4]", "room", 0 ],
+			"obj-14::obj-41::obj-81" : [ "dropMode[26]", "dropMode", 0 ],
 			"obj-14::obj-34::obj-81" : [ "dropMode[18]", "dropMode", 0 ],
+			"obj-14::obj-34::obj-114" : [ "room presence[18]", "room", 0 ],
+			"obj-14::obj-12::obj-81" : [ "dropMode[4]", "dropMode", 0 ],
+			"obj-14::obj-18::obj-81" : [ "dropMode[10]", "dropMode", 0 ],
+			"obj-14::obj-12::obj-79" : [ "source presence[4]", "presnc", 0 ],
+			"obj-14::obj-5::obj-81" : [ "dropMode[13]", "dropMode", 0 ],
+			"obj-14::obj-6::obj-114" : [ "room presence[24]", "room", 0 ],
+			"obj-14::obj-30::obj-114" : [ "room presence[14]", "room", 0 ],
+			"obj-14::obj-8::obj-114" : [ "room presence[30]", "room", 0 ],
 			"obj-14::obj-33::obj-79" : [ "source presence[17]", "presnc", 0 ],
 			"obj-14::obj-37::obj-79" : [ "source presence[21]", "presnc", 0 ],
-			"obj-14::obj-41::obj-114" : [ "room presence[26]", "room", 0 ],
-			"obj-14::obj-58::obj-81" : [ "dropMode[33]", "dropMode", 0 ],
-			"obj-14::obj-28::obj-114" : [ "room presence[11]", "room", 0 ],
-			"obj-14::obj-13::obj-114" : [ "room presence[5]", "room", 0 ],
-			"obj-14::obj-40::obj-114" : [ "room presence[25]", "room", 0 ],
-			"obj-14::obj-12::obj-81" : [ "dropMode[4]", "dropMode", 0 ],
-			"obj-14::obj-6::obj-114" : [ "room presence[24]", "room", 0 ],
-			"obj-14::obj-35::obj-81" : [ "dropMode[19]", "dropMode", 0 ],
-			"obj-14::obj-11::obj-79" : [ "source presence[3]", "presnc", 0 ],
-			"obj-14::obj-12::obj-79" : [ "source presence[4]", "presnc", 0 ],
-			"obj-14::obj-12::obj-114" : [ "room presence[4]", "room", 0 ],
-			"obj-14::obj-32::obj-81" : [ "dropMode[16]", "dropMode", 0 ],
-			"obj-14::obj-7::obj-79" : [ "source presence[29]", "presnc", 0 ],
-			"obj-14::obj-26::obj-114" : [ "room presence[32]", "room", 0 ],
-			"obj-14::obj-29::obj-81" : [ "dropMode[12]", "dropMode", 0 ],
-			"obj-14::obj-5::obj-79" : [ "source presence[13]", "presnc", 0 ],
-			"obj-14::obj-40::obj-81" : [ "dropMode[25]", "dropMode", 0 ],
-			"obj-14::obj-39::obj-81" : [ "dropMode[23]", "dropMode", 0 ],
-			"obj-14::obj-18::obj-114" : [ "room presence[10]", "room", 0 ],
-			"obj-14::obj-42::obj-81" : [ "dropMode[27]", "dropMode", 0 ],
-			"obj-14::obj-5::obj-114" : [ "room presence[13]", "room", 0 ],
-			"obj-14::obj-9::obj-114" : [ "room presence[31]", "room", 0 ],
-			"obj-14::obj-31::obj-81" : [ "dropMode[15]", "dropMode", 0 ],
-			"obj-14::obj-32::obj-114" : [ "room presence[16]", "room", 0 ],
-			"obj-14::obj-28::obj-79" : [ "source presence[11]", "presnc", 0 ],
-			"obj-14::obj-43::obj-114" : [ "room presence[28]", "room", 0 ],
-			"obj-14::obj-36::obj-114" : [ "room presence[20]", "room", 0 ],
-			"obj-14::obj-34::obj-114" : [ "room presence[18]", "room", 0 ],
-			"obj-14::obj-11::obj-114" : [ "room presence[3]", "room", 0 ],
-			"obj-14::obj-10::obj-81" : [ "dropMode[2]", "dropMode", 0 ],
-			"obj-14::obj-8::obj-114" : [ "room presence[30]", "room", 0 ],
-			"obj-14::obj-10::obj-79" : [ "source presence[2]", "presnc", 0 ],
-			"obj-14::obj-8::obj-81" : [ "dropMode[30]", "dropMode", 0 ],
-			"obj-14::obj-30::obj-79" : [ "source presence[14]", "presnc", 0 ],
-			"obj-14::obj-10::obj-114" : [ "room presence[2]", "room", 0 ],
-			"obj-14::obj-26::obj-79" : [ "source presence[32]", "presnc", 0 ],
-			"obj-14::obj-33::obj-81" : [ "dropMode[17]", "dropMode", 0 ],
-			"obj-14::obj-37::obj-114" : [ "room presence[21]", "room", 0 ],
-			"obj-14::obj-15::obj-79" : [ "source presence[7]", "presnc", 0 ],
-			"obj-23::obj-28" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-14::obj-16::obj-81" : [ "dropMode[8]", "dropMode", 0 ],
-			"obj-14::obj-30::obj-81" : [ "dropMode[14]", "dropMode", 0 ],
-			"obj-14::obj-14::obj-79" : [ "source presence[6]", "presnc", 0 ],
-			"obj-14::obj-58::obj-79" : [ "source presence[33]", "presnc", 0 ],
-			"obj-14::obj-39::obj-114" : [ "room presence[23]", "room", 0 ],
-			"obj-14::obj-38::obj-81" : [ "dropMode[22]", "dropMode", 0 ],
-			"obj-14::obj-6::obj-81" : [ "dropMode[24]", "dropMode", 0 ],
-			"obj-14::obj-18::obj-81" : [ "dropMode[10]", "dropMode", 0 ],
-			"obj-14::obj-43::obj-81" : [ "dropMode[28]", "dropMode", 0 ],
-			"obj-14::obj-6::obj-79" : [ "source presence[24]", "presnc", 0 ],
-			"obj-14::obj-7::obj-114" : [ "room presence[29]", "room", 0 ],
+			"obj-14::obj-36::obj-79" : [ "source presence[20]", "presnc", 0 ],
+			"obj-14::obj-38::obj-114" : [ "room presence[22]", "room", 0 ],
 			"obj-14::obj-17::obj-81" : [ "dropMode[9]", "dropMode", 0 ],
-			"obj-14::obj-29::obj-114" : [ "room presence[12]", "room", 0 ]
+			"obj-14::obj-14::obj-114" : [ "room presence[6]", "room", 0 ],
+			"obj-14::obj-29::obj-79" : [ "source presence[12]", "presnc", 0 ],
+			"obj-14::obj-15::obj-79" : [ "source presence[7]", "presnc", 0 ],
+			"obj-14::obj-13::obj-79" : [ "source presence[5]", "presnc", 0 ],
+			"obj-14::obj-5::obj-114" : [ "room presence[13]", "room", 0 ],
+			"obj-14::obj-58::obj-81" : [ "dropMode[33]", "dropMode", 0 ],
+			"obj-14::obj-16::obj-114" : [ "room presence[8]", "room", 0 ],
+			"obj-14::obj-14::obj-81" : [ "dropMode[6]", "dropMode", 0 ],
+			"obj-14::obj-32::obj-114" : [ "room presence[16]", "room", 0 ],
+			"obj-14::obj-10::obj-114" : [ "room presence[2]", "room", 0 ],
+			"obj-14::obj-37::obj-81" : [ "dropMode[21]", "dropMode", 0 ],
+			"obj-14::obj-7::obj-79" : [ "source presence[29]", "presnc", 0 ],
+			"obj-14::obj-10::obj-81" : [ "dropMode[2]", "dropMode", 0 ],
+			"obj-14::obj-10::obj-79" : [ "source presence[2]", "presnc", 0 ],
+			"obj-14::obj-15::obj-81" : [ "dropMode[7]", "dropMode", 0 ],
+			"obj-14::obj-8::obj-79" : [ "source presence[30]", "presnc", 0 ],
+			"obj-14::obj-39::obj-114" : [ "room presence[23]", "room", 0 ],
+			"obj-14::obj-17::obj-79" : [ "source presence[9]", "presnc", 0 ],
+			"obj-14::obj-9::obj-79" : [ "source presence[31]", "presnc", 0 ],
+			"obj-14::obj-42::obj-81" : [ "dropMode[27]", "dropMode", 0 ],
+			"obj-14::obj-58::obj-114" : [ "room presence[33]", "room", 0 ],
+			"obj-14::obj-17::obj-114" : [ "room presence[9]", "room", 0 ],
+			"obj-14::obj-35::obj-79" : [ "source presence[19]", "presnc", 0 ],
+			"obj-14::obj-13::obj-81" : [ "dropMode[5]", "dropMode", 0 ],
+			"obj-14::obj-28::obj-79" : [ "source presence[11]", "presnc", 0 ],
+			"obj-14::obj-11::obj-79" : [ "source presence[3]", "presnc", 0 ],
+			"obj-14::obj-26::obj-81" : [ "dropMode[32]", "dropMode", 0 ],
+			"obj-14::obj-9::obj-81" : [ "dropMode[31]", "dropMode", 0 ],
+			"obj-14::obj-26::obj-79" : [ "source presence[32]", "presnc", 0 ],
+			"obj-14::obj-34::obj-79" : [ "source presence[18]", "presnc", 0 ],
+			"obj-14::obj-42::obj-79" : [ "source presence[27]", "presnc", 0 ],
+			"obj-14::obj-6::obj-79" : [ "source presence[24]", "presnc", 0 ]
 		}
 
 	}
