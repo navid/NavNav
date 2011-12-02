@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 163.0, 177.0, 671.0, 444.0 ],
+		"rect" : [ 310.0, 125.0, 671.0, 444.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 163.0, 177.0, 671.0, 444.0 ],
+		"defrect" : [ 310.0, 125.0, 671.0, 444.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,15 +41,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.0, 398.0, 50.0, 32.0 ],
+					"patching_rect" : [ 517.0, 398.0, 50.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 323.0, 388.0, 108.0, 18.0 ],
-					"text" : "/view/panel"
+					"text" : "/param/rateVar 0."
 				}
 
 			}
@@ -191,13 +191,13 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 481.0, 290.0, 134.0, 34.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontsize" : 13.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p note on modulatation parameters"
@@ -369,13 +369,13 @@
 ,
 					"patching_rect" : [ 147.0, 384.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p apapt"
@@ -425,7 +425,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 673.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 671.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 670.0, 70.0 ],
 					"prototypename" : "bphelp",
