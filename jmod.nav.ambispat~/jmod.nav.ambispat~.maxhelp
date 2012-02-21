@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 77.0, 384.0, 990.0, 870.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 23.0, 260.0, 991.0, 743.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 77.0, 384.0, 990.0, 870.0 ],
+		"defrect" : [ 23.0, 260.0, 991.0, 743.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -28,7 +34,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.0, 581.0, 445.0, 96.0 ],
+					"patching_rect" : [ 320.0, 83.0, 445.0, 96.0 ],
 					"text" : "TO DO:\nradius and source presence tunner\n\nBUGS:\nsource reverb choice doesn't communicate from oper to jmod\n\n"
 				}
 
@@ -59,6 +65,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -89,6 +101,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 832.0, 336.0, 595.0, 499.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 832.0, 336.0, 595.0, 499.0 ],
@@ -364,13 +382,13 @@
 ,
 									"patching_rect" : [ 50.0, 100.0, 43.0, 31.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p delete"
@@ -390,6 +408,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 151.0, 264.0, 444.0, 467.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 151.0, 264.0, 444.0, 467.0 ],
@@ -734,13 +758,13 @@
 ,
 									"patching_rect" : [ 94.0, 100.0, 43.0, 31.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p names"
@@ -842,15 +866,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 772.0, 381.0, 17.0, 19.0 ],
+					"patching_rect" : [ 765.0, 381.0, 17.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -868,6 +892,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -945,15 +975,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 772.0, 440.0, 18.0, 20.0 ],
+					"patching_rect" : [ 765.0, 440.0, 18.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -984,6 +1014,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1117,13 +1153,13 @@
 ,
 					"patching_rect" : [ 574.0, 408.0, 54.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p adapt"
@@ -1141,6 +1177,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1295,15 +1337,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 841.0, 385.0, 54.0, 21.0 ],
+					"patching_rect" : [ 834.0, 385.0, 54.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p adapt"
@@ -1321,6 +1363,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1422,13 +1470,13 @@
 ,
 					"patching_rect" : [ 583.067627, 472.0, 19.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -1484,6 +1532,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1583,15 +1637,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 833.0, 466.0, 19.0, 21.0 ],
+					"patching_rect" : [ 826.0, 466.0, 19.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -1609,6 +1663,12 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1222.0, 44.0, 446.0, 446.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1222.0, 44.0, 446.0, 446.0 ],
@@ -1727,13 +1787,13 @@
 ,
 					"patching_rect" : [ 683.0, 406.0, 60.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p source"
@@ -1754,7 +1814,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 834.067627, 446.465332, 34.0, 15.0 ],
+					"patching_rect" : [ 827.067627, 446.465332, 34.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 331.739288, 77.0, 34.323135, 16.0 ],
 					"rounded" : 8.729978,
@@ -1773,7 +1833,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 833.0, 487.0, 57.0, 21.0 ],
+					"patching_rect" : [ 826.0, 487.0, 57.0, 21.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1789,6 +1849,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1222.0, 551.0, 377.0, 376.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1222.0, 551.0, 377.0, 376.0 ],
@@ -1867,15 +1933,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 769.0, 417.0, 74.0, 21.0 ],
+					"patching_rect" : [ 762.0, 417.0, 74.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p speakers"
@@ -1890,7 +1956,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.0, 407.0, 107.0, 19.0 ],
+					"patching_rect" : [ 834.0, 407.0, 107.0, 19.0 ],
 					"text" : "s jmod.decode.cmd"
 				}
 
@@ -1906,6 +1972,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1216.0, 598.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1216.0, 598.0, 640.0, 480.0 ],
@@ -1936,6 +2008,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 323.0, 214.0, 595.0, 499.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 323.0, 214.0, 595.0, 499.0 ],
@@ -2211,13 +2289,13 @@
 ,
 									"patching_rect" : [ 50.0, 106.0, 43.0, 31.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p delete"
@@ -2237,6 +2315,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 151.0, 264.0, 444.0, 467.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 151.0, 264.0, 444.0, 467.0 ],
@@ -2581,13 +2665,13 @@
 ,
 									"patching_rect" : [ 94.0, 106.0, 43.0, 31.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p names"
@@ -2692,13 +2776,13 @@
 ,
 					"patching_rect" : [ 683.0, 385.0, 17.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -2750,6 +2834,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 38.0, 345.0, 571.0, 276.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 38.0, 345.0, 571.0, 276.0 ],
@@ -3092,13 +3182,13 @@
 ,
 					"patching_rect" : [ 572.0, 261.0, 104.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p random_position"
@@ -3117,6 +3207,12 @@
 					"outlettype" : [ "int", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 118.0, 396.0, 277.0, 252.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 118.0, 396.0, 277.0, 252.0 ],
@@ -3335,13 +3431,13 @@
 ,
 					"patching_rect" : [ 698.0, 184.0, 51.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -3357,7 +3453,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 807.0, 236.0, 132.0, 19.0 ],
+					"patching_rect" : [ 800.0, 236.0, 132.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 77.0, 63.0, 19.0 ],
 					"text" : "#of spkrs"
@@ -3375,6 +3471,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 35.0, 450.0, 618.0, 376.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 35.0, 450.0, 618.0, 376.0 ],
@@ -3741,15 +3843,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 772.0, 261.0, 82.0, 19.0 ],
+					"patching_rect" : [ 765.0, 261.0, 82.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p equal_distro"
@@ -3767,7 +3869,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 772.0, 236.0, 37.0, 19.0 ],
+					"patching_rect" : [ 765.0, 236.0, 37.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 228.0, 77.0, 37.0, 19.0 ],
 					"triscale" : 0.9
@@ -3784,7 +3886,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.0, 306.0, 150.0, 70.0 ],
+					"patching_rect" : [ 765.0, 306.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 228.0, 97.0, 150.0, 70.0 ]
 				}
@@ -3801,6 +3903,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1101.0, 656.0, 534.0, 423.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1101.0, 656.0, 534.0, 423.0 ],
@@ -3903,13 +4011,13 @@
 ,
 					"patching_rect" : [ 724.0, 432.0, 19.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -3943,6 +4051,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 1047.0, 210.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 1047.0, 210.0, 640.0, 480.0 ],
@@ -4076,15 +4190,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 6.0, 758.0, 38.0, 21.0 ],
+					"patching_rect" : [ 341.0, 634.0, 38.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -4100,7 +4214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 781.0, 300.0, 70.0 ],
+					"patching_rect" : [ 342.0, 657.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 62.0, 753.0, 300.0, 70.0 ]
 				}
@@ -4132,6 +4246,12 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 377.0, 246.0, 721.0, 429.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 377.0, 246.0, 721.0, 429.0 ],
@@ -4310,13 +4430,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 569.0, 534.0, 47.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p adapt"
@@ -4331,7 +4451,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 58.0, 543.0, 245.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 614.0, 535.0, 189.0, 19.0 ],
@@ -4350,6 +4470,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 629.0, 47.0, 440.0, 384.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 629.0, 47.0, 440.0, 384.0 ],
@@ -4514,13 +4640,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 568.0, 443.0, 47.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p adapt"
@@ -4535,7 +4661,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 63.0, 438.0, 245.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 613.0, 444.0, 153.0, 19.0 ],
@@ -4569,7 +4695,7 @@
 					"name" : "jmod.sur.speaker.delay~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 8.0, 573.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 718.0, 560.0, 150.0, 70.0 ],
@@ -4586,7 +4712,7 @@
 					"name" : "jmod.sur.ambi.decode~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 8.0, 463.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 568.0, 463.0, 300.0, 70.0 ],
@@ -4632,7 +4758,7 @@
 					"name" : "jmod.sur.multi.in~.maxpat",
 					"numinlets" : 33,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 8.0, 251.0, 300.0, 35.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 35.0 ],
 					"varname" : "jmod.sur.multi.in~"
@@ -4647,7 +4773,7 @@
 					"name" : "jmod.nav.ambispat~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 158.0, 328.0, 150.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ]
 				}
@@ -4748,7 +4874,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 781.5, 465.0, 765.0, 465.0, 765.0, 296.0, 781.5, 296.0 ],
+					"midpoints" : [ 774.5, 465.0, 758.0, 465.0, 758.0, 296.0, 774.5, 296.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -4829,7 +4955,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 707.5, 222.0, 781.5, 222.0 ],
+					"midpoints" : [ 707.5, 222.0, 774.5, 222.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -5034,105 +5160,105 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-14::obj-29::obj-114" : [ "room presence[12]", "room", 0 ],
-			"obj-1::obj-14::obj-37::obj-81" : [ "dropMode[21]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-42::obj-81" : [ "dropMode[27]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-28::obj-79" : [ "source presence[11]", "presnc", 0 ],
-			"obj-1::obj-14::obj-38::obj-79" : [ "source presence[22]", "presnc", 0 ],
-			"obj-1::obj-14::obj-38::obj-114" : [ "room presence[22]", "room", 0 ],
-			"obj-1::obj-14::obj-41::obj-114" : [ "room presence[26]", "room", 0 ],
-			"obj-1::obj-14::obj-5::obj-81" : [ "dropMode[13]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-31::obj-79" : [ "source presence[15]", "presnc", 0 ],
-			"obj-1::obj-14::obj-29::obj-81" : [ "dropMode[12]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-26::obj-79" : [ "source presence[32]", "presnc", 0 ],
-			"obj-1::obj-14::obj-36::obj-79" : [ "source presence[20]", "presnc", 0 ],
-			"obj-1::obj-14::obj-32::obj-79" : [ "source presence[16]", "presnc", 0 ],
-			"obj-1::obj-14::obj-12::obj-81" : [ "dropMode[4]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-9::obj-81" : [ "dropMode[31]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-12::obj-79" : [ "source presence[4]", "presnc", 0 ],
-			"obj-1::obj-14::obj-14::obj-81" : [ "dropMode[6]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-12::obj-114" : [ "room presence[4]", "room", 0 ],
-			"obj-1::obj-14::obj-15::obj-79" : [ "source presence[7]", "presnc", 0 ],
-			"obj-1::obj-14::obj-35::obj-114" : [ "room presence[19]", "room", 0 ],
-			"obj-1::obj-14::obj-18::obj-114" : [ "room presence[10]", "room", 0 ],
-			"obj-1::obj-23::obj-3" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-1::obj-14::obj-33::obj-81" : [ "dropMode[17]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-5::obj-114" : [ "room presence[13]", "room", 0 ],
-			"obj-1::obj-14::obj-41::obj-79" : [ "source presence[26]", "presnc", 0 ],
-			"obj-1::obj-14::obj-7::obj-81" : [ "dropMode[29]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-26::obj-81" : [ "dropMode[32]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-40::obj-81" : [ "dropMode[25]", "dropMode", 0 ],
 			"obj-1::obj-23::obj-26" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-1::obj-14::obj-10::obj-81" : [ "dropMode[2]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-30::obj-114" : [ "room presence[14]", "room", 0 ],
-			"obj-1::obj-14::obj-10::obj-79" : [ "source presence[2]", "presnc", 0 ],
-			"obj-1::obj-14::obj-34::obj-79" : [ "source presence[18]", "presnc", 0 ],
-			"obj-1::obj-14::obj-10::obj-114" : [ "room presence[2]", "room", 0 ],
-			"obj-1::obj-14::obj-43::obj-81" : [ "dropMode[28]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-17::obj-81" : [ "dropMode[9]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-13::obj-114" : [ "room presence[5]", "room", 0 ],
-			"obj-1::obj-14::obj-40::obj-79" : [ "source presence[25]", "presnc", 0 ],
-			"obj-1::obj-14::obj-58::obj-114" : [ "room presence[33]", "room", 0 ],
+			"obj-1::obj-14::obj-12::obj-114" : [ "room presence[4]", "room", 0 ],
+			"obj-1::obj-14::obj-12::obj-81" : [ "dropMode[4]", "dropMode", 0 ],
 			"obj-1::obj-14::obj-29::obj-79" : [ "source presence[12]", "presnc", 0 ],
 			"obj-1::obj-14::obj-58::obj-79" : [ "source presence[33]", "presnc", 0 ],
-			"obj-1::obj-14::obj-32::obj-114" : [ "room presence[16]", "room", 0 ],
-			"obj-1::obj-14::obj-40::obj-114" : [ "room presence[25]", "room", 0 ],
-			"obj-1::obj-14::obj-37::obj-114" : [ "room presence[21]", "room", 0 ],
-			"obj-1::obj-14::obj-39::obj-114" : [ "room presence[23]", "room", 0 ],
-			"obj-1::obj-23::obj-28" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-1::obj-14::obj-32::obj-81" : [ "dropMode[16]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-9::obj-79" : [ "source presence[31]", "presnc", 0 ],
-			"obj-1::obj-14::obj-31::obj-81" : [ "dropMode[15]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-35::obj-81" : [ "dropMode[19]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-8::obj-79" : [ "source presence[30]", "presnc", 0 ],
-			"obj-1::obj-14::obj-6::obj-114" : [ "room presence[24]", "room", 0 ],
-			"obj-1::obj-14::obj-6::obj-81" : [ "dropMode[24]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-36::obj-114" : [ "room presence[20]", "room", 0 ],
-			"obj-1::obj-14::obj-8::obj-114" : [ "room presence[30]", "room", 0 ],
-			"obj-1::obj-14::obj-15::obj-114" : [ "room presence[7]", "room", 0 ],
-			"obj-1::obj-14::obj-18::obj-79" : [ "source presence[10]", "presnc", 0 ],
-			"obj-1::obj-14::obj-28::obj-114" : [ "room presence[11]", "room", 0 ],
-			"obj-1::obj-14::obj-42::obj-79" : [ "source presence[27]", "presnc", 0 ],
+			"obj-1::obj-14::obj-13::obj-114" : [ "room presence[5]", "room", 0 ],
+			"obj-1::obj-14::obj-30::obj-114" : [ "room presence[14]", "room", 0 ],
 			"obj-1::obj-14::obj-30::obj-81" : [ "dropMode[14]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-17::obj-79" : [ "source presence[9]", "presnc", 0 ],
-			"obj-1::obj-14::obj-13::obj-81" : [ "dropMode[5]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-11::obj-114" : [ "room presence[3]", "room", 0 ],
-			"obj-1::obj-14::obj-5::obj-79" : [ "source presence[13]", "presnc", 0 ],
-			"obj-1::obj-14::obj-14::obj-79" : [ "source presence[6]", "presnc", 0 ],
-			"obj-1::obj-14::obj-43::obj-79" : [ "source presence[28]", "presnc", 0 ],
-			"obj-1::obj-14::obj-41::obj-81" : [ "dropMode[26]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-31::obj-114" : [ "room presence[15]", "room", 0 ],
-			"obj-1::obj-14::obj-16::obj-81" : [ "dropMode[8]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-43::obj-114" : [ "room presence[28]", "room", 0 ],
-			"obj-1::obj-14::obj-36::obj-81" : [ "dropMode[20]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-18::obj-81" : [ "dropMode[10]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-39::obj-79" : [ "source presence[23]", "presnc", 0 ],
-			"obj-1::obj-14::obj-17::obj-114" : [ "room presence[9]", "room", 0 ],
-			"obj-1::obj-14::obj-33::obj-114" : [ "room presence[17]", "room", 0 ],
-			"obj-1::obj-14::obj-34::obj-81" : [ "dropMode[18]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-14::obj-114" : [ "room presence[6]", "room", 0 ],
-			"obj-1::obj-14::obj-9::obj-114" : [ "room presence[31]", "room", 0 ],
-			"obj-1::obj-14::obj-13::obj-79" : [ "source presence[5]", "presnc", 0 ],
 			"obj-1::obj-14::obj-11::obj-81" : [ "dropMode[3]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-58::obj-81" : [ "dropMode[33]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-37::obj-79" : [ "source presence[21]", "presnc", 0 ],
-			"obj-1::obj-14::obj-33::obj-79" : [ "source presence[17]", "presnc", 0 ],
-			"obj-1::obj-14::obj-38::obj-81" : [ "dropMode[22]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-39::obj-81" : [ "dropMode[23]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-8::obj-81" : [ "dropMode[30]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-7::obj-114" : [ "room presence[29]", "room", 0 ],
+			"obj-1::obj-14::obj-5::obj-114" : [ "room presence[13]", "room", 0 ],
 			"obj-1::obj-14::obj-34::obj-114" : [ "room presence[18]", "room", 0 ],
+			"obj-1::obj-14::obj-40::obj-79" : [ "source presence[25]", "presnc", 0 ],
+			"obj-1::obj-14::obj-28::obj-79" : [ "source presence[11]", "presnc", 0 ],
+			"obj-1::obj-14::obj-41::obj-81" : [ "dropMode[26]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-26::obj-79" : [ "source presence[32]", "presnc", 0 ],
+			"obj-1::obj-14::obj-17::obj-79" : [ "source presence[9]", "presnc", 0 ],
+			"obj-1::obj-14::obj-18::obj-114" : [ "room presence[10]", "room", 0 ],
+			"obj-1::obj-14::obj-6::obj-114" : [ "room presence[24]", "room", 0 ],
+			"obj-1::obj-14::obj-43::obj-81" : [ "dropMode[28]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-10::obj-79" : [ "source presence[2]", "presnc", 0 ],
+			"obj-1::obj-14::obj-29::obj-81" : [ "dropMode[12]", "dropMode", 0 ],
 			"obj-1::obj-14::obj-7::obj-79" : [ "source presence[29]", "presnc", 0 ],
+			"obj-1::obj-14::obj-10::obj-114" : [ "room presence[2]", "room", 0 ],
+			"obj-1::obj-14::obj-36::obj-114" : [ "room presence[20]", "room", 0 ],
+			"obj-1::obj-14::obj-58::obj-114" : [ "room presence[33]", "room", 0 ],
+			"obj-1::obj-14::obj-10::obj-81" : [ "dropMode[2]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-33::obj-81" : [ "dropMode[17]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-37::obj-81" : [ "dropMode[21]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-43::obj-79" : [ "source presence[28]", "presnc", 0 ],
+			"obj-1::obj-14::obj-11::obj-114" : [ "room presence[3]", "room", 0 ],
+			"obj-1::obj-14::obj-15::obj-114" : [ "room presence[7]", "room", 0 ],
 			"obj-1::obj-14::obj-26::obj-114" : [ "room presence[32]", "room", 0 ],
-			"obj-1::obj-14::obj-15::obj-81" : [ "dropMode[7]", "dropMode", 0 ],
-			"obj-1::obj-14::obj-35::obj-79" : [ "source presence[19]", "presnc", 0 ],
-			"obj-1::obj-14::obj-6::obj-79" : [ "source presence[24]", "presnc", 0 ],
-			"obj-1::obj-14::obj-16::obj-79" : [ "source presence[8]", "presnc", 0 ],
+			"obj-1::obj-14::obj-14::obj-79" : [ "source presence[6]", "presnc", 0 ],
+			"obj-1::obj-14::obj-36::obj-79" : [ "source presence[20]", "presnc", 0 ],
+			"obj-1::obj-14::obj-39::obj-79" : [ "source presence[23]", "presnc", 0 ],
+			"obj-1::obj-14::obj-8::obj-114" : [ "room presence[30]", "room", 0 ],
+			"obj-1::obj-14::obj-31::obj-114" : [ "room presence[15]", "room", 0 ],
+			"obj-1::obj-14::obj-31::obj-81" : [ "dropMode[15]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-32::obj-81" : [ "dropMode[16]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-37::obj-114" : [ "room presence[21]", "room", 0 ],
+			"obj-1::obj-14::obj-41::obj-114" : [ "room presence[26]", "room", 0 ],
+			"obj-1::obj-14::obj-9::obj-81" : [ "dropMode[31]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-5::obj-81" : [ "dropMode[13]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-32::obj-79" : [ "source presence[16]", "presnc", 0 ],
+			"obj-1::obj-14::obj-38::obj-79" : [ "source presence[22]", "presnc", 0 ],
 			"obj-1::obj-14::obj-28::obj-81" : [ "dropMode[11]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-42::obj-79" : [ "source presence[27]", "presnc", 0 ],
+			"obj-1::obj-14::obj-43::obj-114" : [ "room presence[28]", "room", 0 ],
+			"obj-1::obj-14::obj-18::obj-79" : [ "source presence[10]", "presnc", 0 ],
+			"obj-1::obj-14::obj-41::obj-79" : [ "source presence[26]", "presnc", 0 ],
+			"obj-1::obj-14::obj-26::obj-81" : [ "dropMode[32]", "dropMode", 0 ],
+			"obj-1::obj-23::obj-3" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-14::obj-33::obj-79" : [ "source presence[17]", "presnc", 0 ],
+			"obj-1::obj-14::obj-34::obj-81" : [ "dropMode[18]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-38::obj-81" : [ "dropMode[22]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-8::obj-81" : [ "dropMode[30]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-32::obj-114" : [ "room presence[16]", "room", 0 ],
+			"obj-1::obj-14::obj-6::obj-79" : [ "source presence[24]", "presnc", 0 ],
+			"obj-1::obj-14::obj-7::obj-81" : [ "dropMode[29]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-29::obj-114" : [ "room presence[12]", "room", 0 ],
+			"obj-1::obj-14::obj-36::obj-81" : [ "dropMode[20]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-15::obj-81" : [ "dropMode[7]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-14::obj-81" : [ "dropMode[6]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-17::obj-81" : [ "dropMode[9]", "dropMode", 0 ],
 			"obj-1::obj-14::obj-30::obj-79" : [ "source presence[14]", "presnc", 0 ],
-			"obj-1::obj-14::obj-16::obj-114" : [ "room presence[8]", "room", 0 ],
+			"obj-1::obj-14::obj-13::obj-79" : [ "source presence[5]", "presnc", 0 ],
+			"obj-1::obj-14::obj-18::obj-81" : [ "dropMode[10]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-5::obj-79" : [ "source presence[13]", "presnc", 0 ],
+			"obj-1::obj-14::obj-6::obj-81" : [ "dropMode[24]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-28::obj-114" : [ "room presence[11]", "room", 0 ],
+			"obj-1::obj-14::obj-39::obj-81" : [ "dropMode[23]", "dropMode", 0 ],
 			"obj-1::obj-14::obj-42::obj-114" : [ "room presence[27]", "room", 0 ],
-			"obj-1::obj-14::obj-11::obj-79" : [ "source presence[3]", "presnc", 0 ]
+			"obj-1::obj-14::obj-15::obj-79" : [ "source presence[7]", "presnc", 0 ],
+			"obj-1::obj-14::obj-31::obj-79" : [ "source presence[15]", "presnc", 0 ],
+			"obj-1::obj-14::obj-7::obj-114" : [ "room presence[29]", "room", 0 ],
+			"obj-1::obj-14::obj-16::obj-114" : [ "room presence[8]", "room", 0 ],
+			"obj-1::obj-14::obj-35::obj-79" : [ "source presence[19]", "presnc", 0 ],
+			"obj-1::obj-14::obj-16::obj-81" : [ "dropMode[8]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-58::obj-81" : [ "dropMode[33]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-33::obj-114" : [ "room presence[17]", "room", 0 ],
+			"obj-1::obj-14::obj-37::obj-79" : [ "source presence[21]", "presnc", 0 ],
+			"obj-1::obj-14::obj-38::obj-114" : [ "room presence[22]", "room", 0 ],
+			"obj-1::obj-14::obj-17::obj-114" : [ "room presence[9]", "room", 0 ],
+			"obj-1::obj-14::obj-42::obj-81" : [ "dropMode[27]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-13::obj-81" : [ "dropMode[5]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-40::obj-114" : [ "room presence[25]", "room", 0 ],
+			"obj-1::obj-14::obj-8::obj-79" : [ "source presence[30]", "presnc", 0 ],
+			"obj-1::obj-14::obj-9::obj-114" : [ "room presence[31]", "room", 0 ],
+			"obj-1::obj-23::obj-28" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-14::obj-11::obj-79" : [ "source presence[3]", "presnc", 0 ],
+			"obj-1::obj-14::obj-14::obj-114" : [ "room presence[6]", "room", 0 ],
+			"obj-1::obj-14::obj-34::obj-79" : [ "source presence[18]", "presnc", 0 ],
+			"obj-1::obj-14::obj-35::obj-114" : [ "room presence[19]", "room", 0 ],
+			"obj-1::obj-14::obj-35::obj-81" : [ "dropMode[19]", "dropMode", 0 ],
+			"obj-1::obj-14::obj-39::obj-114" : [ "room presence[23]", "room", 0 ],
+			"obj-1::obj-14::obj-9::obj-79" : [ "source presence[31]", "presnc", 0 ],
+			"obj-1::obj-14::obj-12::obj-79" : [ "source presence[4]", "presnc", 0 ],
+			"obj-1::obj-14::obj-16::obj-79" : [ "source presence[8]", "presnc", 0 ],
+			"obj-1::obj-14::obj-40::obj-81" : [ "dropMode[25]", "dropMode", 0 ]
 		}
 
 	}

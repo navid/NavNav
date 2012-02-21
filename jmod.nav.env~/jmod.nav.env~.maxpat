@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 185.0, 178.0, 1260.0, 890.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 185.0, 178.0, 1260.0, 890.0 ],
@@ -27,8 +33,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 432.0, 36.0, 21.0 ],
-					"text" : "gate"
+					"patching_rect" : [ 158.0, 432.0, 57.0, 21.0 ],
+					"text" : "gate 1 1"
 				}
 
 			}
