@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 118.0, 53.0, 592.0, 338.0 ],
+		"rect" : [ 443.0, 116.0, 750.0, 486.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 118.0, 53.0, 592.0, 338.0 ],
+		"defrect" : [ 443.0, 116.0, 750.0, 486.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,6 +26,39 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 459.0, 254.0, 169.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 463.0, 237.0, 198.0, 34.0 ],
+					"text" : "blue knob = input gain\nf = freeze buffer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "myModule" ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.input~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "signal", "signal" ],
+					"patching_rect" : [ 156.0, 87.0, 300.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.0, 58.0, 300.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "@name", "jmod.nav.sur.rogs~", "@description", "multichannel Rogs~ granulator with 1-12 channels of output" ],
 					"bgmode" : 1,
 					"id" : "obj-1",
@@ -33,9 +66,9 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 591.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 750.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 30.0, 670.0, 70.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 670.0, 70.0 ],
 					"prototypename" : "bphelp",
 					"varname" : "maxhelpui"
 				}
@@ -44,17 +77,18 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 84.0, 186.0, 34.0 ],
+					"patching_rect" : [ 462.0, 185.0, 226.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 343.0, 161.0, 328.0, 34.0 ],
-					"text" : "dependancies:\nRogs~ (IRCAM FORUM)"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 343.0, 161.0, 379.0, 55.0 ],
+					"text" : "dependancies: \nyou will need this external:\ndisis_munger~ "
 				}
 
 			}
@@ -62,12 +96,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-8",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.0, 183.0, 153.0, 62.0 ],
+					"patching_rect" : [ 463.0, 326.0, 169.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 458.0, 330.0, 198.0, 48.0 ],
@@ -112,6 +147,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-8",
 									"linecount" : 9,
 									"maxclass" : "comment",
@@ -126,6 +162,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-7",
 									"linecount" : 5,
 									"maxclass" : "comment",
@@ -140,6 +177,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -153,6 +191,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -167,6 +206,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -180,6 +220,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -193,6 +234,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -207,18 +249,18 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 333.0, 255.0, 217.0, 20.0 ],
+					"patching_rect" : [ 331.0, 407.0, 217.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 481.0, 290.0, 134.0, 48.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 13.0
 					}
 ,
 					"text" : "p note on the modulatation parameters"
@@ -227,17 +269,17 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "jmod.nav.sur.rogsr~" ],
+					"args" : [ "jmod.nav.munger~" ],
 					"id" : "obj-4",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "jmod.nav.sur.rogs~.maxpat",
-					"numinlets" : 1,
+					"name" : "jmod.nav.munger~.maxpat",
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "audio.connect" ],
-					"patching_rect" : [ 12.0, 84.0, 300.0, 140.0 ],
+					"patching_rect" : [ 10.0, 236.0, 450.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 225.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 8.0, 225.0, 450.0, 140.0 ],
 					"varname" : "rogsSur"
 				}
 
@@ -358,15 +400,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 231.0, 51.0, 20.0 ],
+					"patching_rect" : [ 10.0, 380.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p apapt"
@@ -383,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 260.0, 300.0, 70.0 ],
+					"patching_rect" : [ 10.0, 407.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 374.0, 300.0, 70.0 ]
 				}
@@ -391,6 +433,24 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"hidden" : 0,
@@ -412,7 +472,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 450.5, 382.5, 300.5, 382.5 ],
 					"source" : [ "obj-4", 1 ]
 				}
 

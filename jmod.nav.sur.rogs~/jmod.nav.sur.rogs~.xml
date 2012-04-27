@@ -7,7 +7,6 @@
   <preset number='1' name='default'>
     <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='buffer/file' type='string' priority='0' mixweight='1'>dialog_box</item>
     <item name='grain/duration' type='decimal' priority='0' mixweight='1'>400.000000</item>
     <item name='grain/overlap' type='integer' priority='0' mixweight='1'>50</item>
     <item name='grain/trigger' type='decimal' priority='0' mixweight='1'>0.000000</item>

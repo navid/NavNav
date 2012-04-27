@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 240.0, 289.0, 597.0, 413.0 ],
+		"rect" : [ 334.0, 44.0, 597.0, 417.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 240.0, 289.0, 597.0, 413.0 ],
+		"defrect" : [ 334.0, 44.0, 597.0, 417.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -158,13 +158,13 @@
 ,
 					"patching_rect" : [ 7.0, 150.0, 49.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 13.0
 					}
 ,
 					"text" : "p adapt"
@@ -384,13 +384,13 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 481.0, 290.0, 134.0, 48.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 13.0
 					}
 ,
 					"text" : "p note on the modulatation parameters"
@@ -532,13 +532,13 @@
 ,
 					"patching_rect" : [ 7.0, 313.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p apapt"
@@ -555,7 +555,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 335.0, 300.0, 70.0 ],
+					"patching_rect" : [ 7.0, 336.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 374.0, 300.0, 70.0 ]
 				}
