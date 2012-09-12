@@ -23,12 +23,7 @@
     <item name='trajectory/point' type='integer' priority='0'>1</item>
     <item name='trajectory/rec' type='boolean' priority='0'>0</item>
     <item name='trajectory/recall' type='string' priority='0'>0</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
     <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 70 </item>
     <item name='volume/bound' type='array' priority='0'>1.500000 1.500000 0.000000 </item>
     <item name='volume/color' type='array' priority='0'>0.155125 0.844529 0.908166 </item>
     <item name='volume/show' type='boolean' priority='0'>0</item>

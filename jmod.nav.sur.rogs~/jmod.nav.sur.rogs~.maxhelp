@@ -158,13 +158,13 @@
 ,
 					"patching_rect" : [ 7.0, 150.0, 49.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"default_fontsize" : 13.0,
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 13.0
+						"default_fontface" : 0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p adapt"
@@ -256,9 +256,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 1184.0, 523.0, 359.0, 405.0 ],
+						"rect" : [ 928.0, 44.0, 362.0, 395.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 1184.0, 523.0, 359.0, 405.0 ],
+						"defrect" : [ 928.0, 44.0, 362.0, 395.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -279,12 +279,12 @@
 									"fontsize" : 13.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-8",
-									"linecount" : 9,
+									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 261.0, 353.0, 141.0 ],
-									"text" : "Case Study:\npitch is set to 1.\npitch modulation to -0.5\nthis info is saved as a preset.\n\nthe amplitude of an audio signal (0-1) is mapped to pitch modAmt. Whenever signal is louder the pitch goes down.\nThrough a simple internal preset change (of the modAmt) the mapping can be changed."
+									"patching_rect" : [ 4.0, 261.0, 353.0, 126.0 ],
+									"text" : "Case Study:\npitch is set to 1.\npitch modulation to -0.5\nthis info is saved as a preset.\nthe amplitude of an audio signal (0-1) is mapped to pitch modAmt. Whenever signal is louder the pitch goes down.\nThrough a simple internal preset change (of the modAmt) the mapping can be changed."
 								}
 
 							}
@@ -298,8 +298,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 171.0, 353.0, 81.0 ],
-									"text" : "First set your parameters in the main interface.\nThen decide how much you like a parameter to be modulated (changed) by for example a sensor. This is your modulation. Now ModAmt (0-1) will modulate your original parameter."
+									"patching_rect" : [ 4.0, 171.0, 347.0, 81.0 ],
+									"text" : "First set your parameters in the main interface.\nThen decide how much you like a parameter to be modulated (changed) by for example a sensor. This is your modulation. Now ModAmt (0-1 from sensor) will modulate your original parameter."
 								}
 
 							}
@@ -384,13 +384,13 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 481.0, 290.0, 134.0, 48.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"default_fontsize" : 13.0,
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 13.0
+						"default_fontface" : 0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p note on the modulatation parameters"
@@ -532,13 +532,13 @@
 ,
 					"patching_rect" : [ 7.0, 313.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontface" : 0,
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p apapt"

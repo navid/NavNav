@@ -2,42 +2,43 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 5
 		}
 ,
 		"rect" : [ 443.0, 116.0, 750.0, 486.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 443.0, 116.0, 750.0, 486.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
 		"gridsize" : [ 3.0, 3.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.0, 254.0, 169.0, 34.0 ],
+					"patching_rect" : [ 471.0, 256.0, 169.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 463.0, 237.0, 198.0, 34.0 ],
+					"presentation_rect" : [ 463.0, 237.0, 198.0, 35.0 ],
 					"text" : "blue knob = input gain\nf = freeze buffer"
 				}
 
@@ -78,13 +79,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-7",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 462.0, 185.0, 226.0, 55.0 ],
+					"patching_rect" : [ 474.0, 187.0, 226.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 343.0, 161.0, 379.0, 55.0 ],
@@ -96,13 +96,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-8",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 463.0, 326.0, 169.0, 48.0 ],
+					"patching_rect" : [ 475.0, 328.0, 169.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 458.0, 330.0, 198.0, 48.0 ],
@@ -121,15 +120,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 5
 						}
 ,
 						"rect" : [ 1184.0, 523.0, 359.0, 405.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 1184.0, 523.0, 359.0, 405.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
@@ -137,23 +134,26 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-8",
 									"linecount" : 9,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 261.0, 353.0, 141.0 ],
+									"patching_rect" : [ 4.0, 261.0, 353.0, 142.0 ],
 									"text" : "Case Study:\npitch is set to 1.\npitch modulation to -0.5\nthis info is saved as a preset.\n\nthe amplitude of an audio signal (0-1) is mapped to pitch modAmt. Whenever signal is louder the pitch goes down.\nThrough a simple internal preset change (of the modAmt) the mapping can be changed."
 								}
 
@@ -162,13 +162,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-7",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 171.0, 353.0, 81.0 ],
+									"patching_rect" : [ 4.0, 171.0, 353.0, 82.0 ],
 									"text" : "First set your parameters in the main interface.\nThen decide how much you like a parameter to be modulated (changed) by for example a sensor. This is your modulation. Now ModAmt (0-1) will modulate your original parameter."
 								}
 
@@ -177,7 +176,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -191,7 +189,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -206,7 +203,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -220,7 +216,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -234,7 +229,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -246,21 +240,25 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 331.0, 407.0, 217.0, 20.0 ],
+					"patching_rect" : [ 343.0, 409.0, 217.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 481.0, 290.0, 134.0, 48.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 13.0
+						"default_fontsize" : 13.0,
+						"description" : ""
 					}
 ,
 					"text" : "p note on the modulatation parameters"
@@ -296,15 +294,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 242.0, 285.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 242.0, 285.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -312,12 +308,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 3.0, 3.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -373,8 +373,8 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -382,8 +382,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -391,11 +391,16 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-34", 0 ]
 								}
 
+							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "jcom.oscroute.mxo",
+								"type" : "iLaX"
 							}
  ]
 					}
@@ -404,11 +409,14 @@
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p apapt"
@@ -435,8 +443,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -444,8 +452,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -453,8 +461,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -462,8 +470,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -471,11 +479,229 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 450.5, 382.5, 300.5, 382.5 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jmod.sur.output~.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.sur.output~.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.audioOnOff.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/audioOnOff",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.js_systeminfo.js",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/javascript",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jmod.nav.munger~.maxpat",
+				"bootpath" : "/Users/Lolita/code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.munger~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.nav.munger~.maxpat",
+				"bootpath" : "/Users/Lolita/code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.munger~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.multi.in~.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/multi.in%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/multi.in%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.multi.out~.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/multi.out%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/multi.out%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jpatch.fileBrowser.maxpat",
+				"bootpath" : "/Users/Lolita/code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.munger~",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpui.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpuiButton.png",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpuiResize.js",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.jamomaPath.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jmod.input~.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/input~",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/input~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.meter_receive.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.unpack≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.pass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.limiter≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.gain≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "disis_munger~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.pack≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.offset≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.savebang.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
