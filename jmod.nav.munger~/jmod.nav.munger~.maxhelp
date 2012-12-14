@@ -244,24 +244,24 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 343.0, 409.0, 217.0, 20.0 ],
+					"patching_rect" : [ 343.0, 409.0, 297.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 481.0, 290.0, 134.0, 48.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 481.0, 290.0, 134.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 13.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"globalpatchername" : ""
 					}
 ,
-					"text" : "p note on the modulatation parameters"
+					"text" : "p note on the modulatation parameters in the panel(+)"
 				}
 
 			}
@@ -407,16 +407,16 @@
 ,
 					"patching_rect" : [ 10.0, 380.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p apapt"
