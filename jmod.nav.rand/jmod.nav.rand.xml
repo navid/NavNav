@@ -5,12 +5,14 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='interpolate' type='decimal' priority='0' mixweight='1'>200.000000</item>
+    <item name='interpolate' type='integer' priority='0' mixweight='1'>10</item>
     <item name='max' type='decimal' priority='0' mixweight='1'>1.000000</item>
     <item name='min' type='decimal' priority='0' mixweight='1'>-1.000000</item>
-    <item name='on' type='boolean' priority='0' mixweight='1'>1</item>
-    <item name='rate/max' type='decimal' priority='0' mixweight='1'>2000.000000</item>
-    <item name='rate/min' type='decimal' priority='0' mixweight='1'>500.000000</item>
+    <item name='on' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='rate/max' type='integer' priority='0' mixweight='1'>25</item>
+    <item name='rate/min' type='integer' priority='0' mixweight='1'>10</item>
+    <item name='step' type='decimal' priority='0' mixweight='1'>0.070000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>
 </jamoma>

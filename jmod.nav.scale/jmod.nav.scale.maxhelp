@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 70.0, 44.0, 537.0, 817.0 ],
+		"rect" : [ 100.0, 100.0, 537.0, 817.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -27,6 +27,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 214.0, 432.0, 222.0, 36.0 ],
+					"text" : "--> Schmitt Trigger (threshold trigger with hysteresis and debounce)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "button",
@@ -98,6 +113,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -117,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 219.0, 667.0, 47.0, 19.0 ],
-					"text" : "0."
+					"text" : "2."
 				}
 
 			}
@@ -135,7 +151,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 160.0, 331.0 ],
@@ -259,22 +275,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 187.0, 106.0, 48.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"tags" : "",
-						"fontname" : "Arial",
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p lines"
@@ -360,7 +375,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 297.0, 209.0, 485.0, 371.0 ],
@@ -465,6 +480,7 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -529,22 +545,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 22.0, 97.0, 99.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
-						"tags" : "",
-						"fontname" : "Verdana",
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p drifting_random"
@@ -606,12 +621,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 355.0, 211.0, 81.0 ],
+					"patching_rect" : [ 214.0, 341.0, 211.0, 79.0 ],
 					"text" : "hint: when the autoscaling modes are choosen, the input min and max get updated in the UI and can be further adjusted in the manual scaling mode."
 				}
 
@@ -620,6 +636,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -639,7 +656,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.0, 672.0, 81.0, 19.0 ],
-					"text" : "42. 194."
+					"text" : "61. 194."
 				}
 
 			}
@@ -652,8 +669,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 64.0, 644.0, 445.0, 21.0 ],
-					"text" : "jcom.oscroute /minMax /filtered /scaled /delta1 /delta2 /velocity /schmitt"
+					"patching_rect" : [ 64.0, 644.0, 438.0, 21.0 ],
+					"text" : "jcom.oscroute /minMax /filtered /scaled /delta1 /delta2 /velocity /schmitTrig"
 				}
 
 			}
@@ -669,7 +686,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 511.0, 76.0, 34.0 ]
+					"patching_rect" : [ 195.0, 511.0, 76.0, 33.0 ]
 				}
 
 			}

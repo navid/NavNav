@@ -1,0 +1,331 @@
+
+ 
+ KEYCUE "fof-init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /myModule 99 1 /rand8 99 1 /rand7 99 1 /rand4 99 1 /rand3 99 1 /rand6 99 1 /rand5 99 1 /rand2 99 1 /rand1 99 1 /myOut 99 1 /myFOF 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/highlight 0 
+ # 
+ # Module /rand8 
+ 	 	 	 	 /rand8/interpolate 899 
+ 	 	 	 	 /rand8/max 1.000000 
+ 	 	 	 	 /rand8/min -1.000000 
+ 	 	 	 	 /rand8/on 1 
+ 	 	 	 	 /rand8/rate/max 2534 
+ 	 	 	 	 /rand8/rate/min 107 
+ 	 	 	 	 /rand8/step 1.000000 
+ 	 	 	 	 /rand8/view/freeze 0 
+ 	 	 	 	 /rand8/view/highlight 0 
+ # 
+ # Module /rand7 
+ 	 	 	 	 /rand7/interpolate 10 
+ 	 	 	 	 /rand7/max 1.000000 
+ 	 	 	 	 /rand7/min 0.000000 
+ 	 	 	 	 /rand7/on 0 
+ 	 	 	 	 /rand7/rate/max 25 
+ 	 	 	 	 /rand7/rate/min 10 
+ 	 	 	 	 /rand7/step 1.000000 
+ 	 	 	 	 /rand7/view/freeze 0 
+ 	 	 	 	 /rand7/view/highlight 0 
+ # 
+ # Module /rand4 
+ 	 	 	 	 /rand4/interpolate 1271 
+ 	 	 	 	 /rand4/max 1.000000 
+ 	 	 	 	 /rand4/min -1.000000 
+ 	 	 	 	 /rand4/on 1 
+ 	 	 	 	 /rand4/rate/max 1328 
+ 	 	 	 	 /rand4/rate/min 333 
+ 	 	 	 	 /rand4/step 1.000000 
+ 	 	 	 	 /rand4/view/freeze 0 
+ 	 	 	 	 /rand4/view/highlight 0 
+ # 
+ # Module /rand3 
+ 	 	 	 	 /rand3/interpolate 2067 
+ 	 	 	 	 /rand3/max 1.000000 
+ 	 	 	 	 /rand3/min -1.000000 
+ 	 	 	 	 /rand3/on 0 
+ 	 	 	 	 /rand3/rate/max 2134 
+ 	 	 	 	 /rand3/rate/min 1310 
+ 	 	 	 	 /rand3/step 0.940000 
+ 	 	 	 	 /rand3/view/freeze 0 
+ 	 	 	 	 /rand3/view/highlight 0 
+ # 
+ # Module /rand6 
+ 	 	 	 	 /rand6/interpolate 910 
+ 	 	 	 	 /rand6/max 1.000000 
+ 	 	 	 	 /rand6/min -1.000000 
+ 	 	 	 	 /rand6/on 1 
+ 	 	 	 	 /rand6/rate/max 1753 
+ 	 	 	 	 /rand6/rate/min 276 
+ 	 	 	 	 /rand6/step 1.000000 
+ 	 	 	 	 /rand6/view/freeze 0 
+ 	 	 	 	 /rand6/view/highlight 0 
+ # 
+ # Module /rand5 
+ 	 	 	 	 /rand5/interpolate 10 
+ 	 	 	 	 /rand5/max 1.000000 
+ 	 	 	 	 /rand5/min 0.000000 
+ 	 	 	 	 /rand5/on 0 
+ 	 	 	 	 /rand5/rate/max 25 
+ 	 	 	 	 /rand5/rate/min 10 
+ 	 	 	 	 /rand5/step 1.000000 
+ 	 	 	 	 /rand5/view/freeze 0 
+ 	 	 	 	 /rand5/view/highlight 0 
+ # 
+ # Module /rand2 
+ 	 	 	 	 /rand2/interpolate 3000 
+ 	 	 	 	 /rand2/max 1.000000 
+ 	 	 	 	 /rand2/min 0.000000 
+ 	 	 	 	 /rand2/on 1 
+ 	 	 	 	 /rand2/rate/max 4000 
+ 	 	 	 	 /rand2/rate/min 535 
+ 	 	 	 	 /rand2/step 1.000000 
+ 	 	 	 	 /rand2/view/freeze 0 
+ 	 	 	 	 /rand2/view/highlight 0 
+ # 
+ # Module /rand1 
+ 	 	 	 	 /rand1/interpolate 6000 
+ 	 	 	 	 /rand1/max 1.000000 
+ 	 	 	 	 /rand1/min -1.000000 
+ 	 	 	 	 /rand1/on 1 
+ 	 	 	 	 /rand1/rate/max 13000 
+ 	 	 	 	 /rand1/rate/min 2087 
+ 	 	 	 	 /rand1/step 0.900000 
+ 	 	 	 	 /rand1/view/freeze 0 
+ 	 	 	 	 /rand1/view/highlight 0 
+ # 
+ # Module /myOut 
+ 	 	 	 	 /myOut/audio/active 0 
+ 	 	 	 	 /myOut/audio/gain 36.000000 
+ 	 	 	 	 /myOut/audio/mute 0 
+ 	 	 	 	 /myOut/limiter/active 1 
+ 	 	 	 	 /myOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /myOut/limiter/lookahead 64 
+ 	 	 	 	 /myOut/limiter/mode exponential 
+ 	 	 	 	 /myOut/limiter/postamp 0.000000 
+ 	 	 	 	 /myOut/limiter/preamp 6.000000 
+ 	 	 	 	 /myOut/limiter/release 300.000000 
+ 	 	 	 	 /myOut/limiter/threshold -1.000000 
+ 	 	 	 	 /myOut/numSpeakers 8 
+ 	 	 	 	 /myOut/offset 0 
+ 	 	 	 	 /myOut/record/filetype default 
+ 	 	 	 	 /myOut/record/samptype default 
+ 	 	 	 	 /myOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /myOut/view/freeze 0 
+ 	 	 	 	 /myOut/view/highlight 0 
+ # 
+ # Module /myFOF 
+ 	 	 	 	 /myFOF/bandW/in/module/name /rand8 
+ 	 	 	 	 /myFOF/f1-amp/in/module/name /rand3 
+ 	 	 	 	 /myFOF/f1/in/module/name /rand2 
+ 	 	 	 	 /myFOF/f2-amp/in/module/name /rand5 
+ 	 	 	 	 /myFOF/f2/in/module/name /rand4 
+ 	 	 	 	 /myFOF/f3-amp/in/module/name /rand7 
+ 	 	 	 	 /myFOF/f3/in/module/name /rand6 
+ 	 	 	 	 /myFOF/fundFreq/in/module/name /rand1 
+ 	 	 	 	 /myFOF/gain/in/module/name 0 
+ 	 	 	 	 /myFOF/bandW/in/module/instance 0 
+ 	 	 	 	 /myFOF/f1-amp/in/module/instance 0 
+ 	 	 	 	 /myFOF/f1/in/module/instance 0 
+ 	 	 	 	 /myFOF/f2-amp/in/module/instance 0 
+ 	 	 	 	 /myFOF/f2/in/module/instance 0 
+ 	 	 	 	 /myFOF/f3-amp/in/module/instance 0 
+ 	 	 	 	 /myFOF/f3/in/module/instance 0 
+ 	 	 	 	 /myFOF/fundFreq/in/module/instance 0 
+ 	 	 	 	 /myFOF/gain/in/module/instance 0 
+ 	 	 	 	 /myFOF/bandW/function 0 
+ 	 	 	 	 /myFOF/bandW/function/symmetry 0 
+ 	 	 	 	 /myFOF/f1-amp/function 0 
+ 	 	 	 	 /myFOF/f1-amp/function/symmetry 0 
+ 	 	 	 	 /myFOF/f1/function 0 
+ 	 	 	 	 /myFOF/f1/function/symmetry 0 
+ 	 	 	 	 /myFOF/f2-amp/function 0 
+ 	 	 	 	 /myFOF/f2-amp/function/symmetry 0 
+ 	 	 	 	 /myFOF/f2/function 0 
+ 	 	 	 	 /myFOF/f2/function/symmetry 0 
+ 	 	 	 	 /myFOF/f3-amp/function 0 
+ 	 	 	 	 /myFOF/f3-amp/function/symmetry 0 
+ 	 	 	 	 /myFOF/f3/function 0 
+ 	 	 	 	 /myFOF/f3/function/symmetry 0 
+ 	 	 	 	 /myFOF/fundFreq/function 0 
+ 	 	 	 	 /myFOF/fundFreq/function/symmetry 0 
+ 	 	 	 	 /myFOF/gain/function 0 
+ 	 	 	 	 /myFOF/gain/function/symmetry 0 
+ 	 	 	 	 /myFOF/bandW/function/parameter2 0 
+ 	 	 	 	 /myFOF/f1-amp/function/parameter2 0 
+ 	 	 	 	 /myFOF/f1/function/parameter2 0 
+ 	 	 	 	 /myFOF/f2-amp/function/parameter2 0 
+ 	 	 	 	 /myFOF/f2/function/parameter2 0 
+ 	 	 	 	 /myFOF/f3-amp/function/parameter2 0 
+ 	 	 	 	 /myFOF/f3/function/parameter2 0 
+ 	 	 	 	 /myFOF/fundFreq/function/parameter2 0 
+ 	 	 	 	 /myFOF/gain/function/parameter2 0 
+ 	 	 	 	 /myFOF/bandW/function/parameter1 0 
+ 	 	 	 	 /myFOF/f1-amp/function/parameter1 0 
+ 	 	 	 	 /myFOF/f1/function/parameter1 0 
+ 	 	 	 	 /myFOF/f2-amp/function/parameter1 0 
+ 	 	 	 	 /myFOF/f2/function/parameter1 0 
+ 	 	 	 	 /myFOF/f3-amp/function/parameter1 0 
+ 	 	 	 	 /myFOF/f3/function/parameter1 0 
+ 	 	 	 	 /myFOF/fundFreq/function/parameter1 0 
+ 	 	 	 	 /myFOF/gain/function/parameter1 0 
+ 	 	 	 	 /myFOF/bandW/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/f1-amp/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/f1/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/f2-amp/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/f2/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/f3-amp/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/f3/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/fundFreq/in/module/parameter /out/final 
+ 	 	 	 	 /myFOF/gain/in/module/parameter 0 
+ 	 	 	 	 /myFOF/allocVoice 1 
+ 	 	 	 	 /myFOF/audio/gain 90.000000 
+ 	 	 	 	 /myFOF/audio/mute 0 
+ 	 	 	 	 /myFOF/bandW/in/module/listindex 0 
+ 	 	 	 	 /myFOF/bandW/mute 1 
+ 	 	 	 	 /myFOF/bandW/offset 0 
+ 	 	 	 	 /myFOF/bandW/ramp/time 0 
+ 	 	 	 	 /myFOF/bandW/scale/bypass 1 
+ 	 	 	 	 /myFOF/bandW/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/bandW/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/bandW/scale/max 0 
+ 	 	 	 	 /myFOF/bandW/scale/min 0 
+ 	 	 	 	 /myFOF/bandW/scale/mode 0 
+ 	 	 	 	 /myFOF/bandW/slide/down 0 
+ 	 	 	 	 /myFOF/bandW/slide/up 0 
+ 	 	 	 	 /myFOF/f1-amp/in/module/listindex 0 
+ 	 	 	 	 /myFOF/f1-amp/mute 1 
+ 	 	 	 	 /myFOF/f1-amp/offset 0 
+ 	 	 	 	 /myFOF/f1-amp/ramp/time 0 
+ 	 	 	 	 /myFOF/f1-amp/scale/bypass 1 
+ 	 	 	 	 /myFOF/f1-amp/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/f1-amp/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/f1-amp/scale/max 0 
+ 	 	 	 	 /myFOF/f1-amp/scale/min 0 
+ 	 	 	 	 /myFOF/f1-amp/scale/mode 0 
+ 	 	 	 	 /myFOF/f1-amp/slide/down 0 
+ 	 	 	 	 /myFOF/f1-amp/slide/up 0 
+ 	 	 	 	 /myFOF/f1/in/module/listindex 0 
+ 	 	 	 	 /myFOF/f1/mute 1 
+ 	 	 	 	 /myFOF/f1/offset 0 
+ 	 	 	 	 /myFOF/f1/ramp/time 0 
+ 	 	 	 	 /myFOF/f1/scale/bypass 1 
+ 	 	 	 	 /myFOF/f1/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/f1/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/f1/scale/max 0 
+ 	 	 	 	 /myFOF/f1/scale/min 0 
+ 	 	 	 	 /myFOF/f1/scale/mode 0 
+ 	 	 	 	 /myFOF/f1/slide/down 0 
+ 	 	 	 	 /myFOF/f1/slide/up 0 
+ 	 	 	 	 /myFOF/f2-amp/in/module/listindex 0 
+ 	 	 	 	 /myFOF/f2-amp/mute 1 
+ 	 	 	 	 /myFOF/f2-amp/offset 0 
+ 	 	 	 	 /myFOF/f2-amp/ramp/time 0 
+ 	 	 	 	 /myFOF/f2-amp/scale/bypass 1 
+ 	 	 	 	 /myFOF/f2-amp/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/f2-amp/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/f2-amp/scale/max 0 
+ 	 	 	 	 /myFOF/f2-amp/scale/min 0 
+ 	 	 	 	 /myFOF/f2-amp/scale/mode 0 
+ 	 	 	 	 /myFOF/f2-amp/slide/down 0 
+ 	 	 	 	 /myFOF/f2-amp/slide/up 0 
+ 	 	 	 	 /myFOF/f2/in/module/listindex 0 
+ 	 	 	 	 /myFOF/f2/mute 1 
+ 	 	 	 	 /myFOF/f2/offset 0 
+ 	 	 	 	 /myFOF/f2/ramp/time 0 
+ 	 	 	 	 /myFOF/f2/scale/bypass 1 
+ 	 	 	 	 /myFOF/f2/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/f2/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/f2/scale/max 0 
+ 	 	 	 	 /myFOF/f2/scale/min 0 
+ 	 	 	 	 /myFOF/f2/scale/mode 0 
+ 	 	 	 	 /myFOF/f2/slide/down 0 
+ 	 	 	 	 /myFOF/f2/slide/up 0 
+ 	 	 	 	 /myFOF/f3-amp/in/module/listindex 0 
+ 	 	 	 	 /myFOF/f3-amp/mute 1 
+ 	 	 	 	 /myFOF/f3-amp/offset 0 
+ 	 	 	 	 /myFOF/f3-amp/ramp/time 0 
+ 	 	 	 	 /myFOF/f3-amp/scale/bypass 1 
+ 	 	 	 	 /myFOF/f3-amp/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/f3-amp/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/f3-amp/scale/max 0 
+ 	 	 	 	 /myFOF/f3-amp/scale/min 0 
+ 	 	 	 	 /myFOF/f3-amp/scale/mode 0 
+ 	 	 	 	 /myFOF/f3-amp/slide/down 0 
+ 	 	 	 	 /myFOF/f3-amp/slide/up 0 
+ 	 	 	 	 /myFOF/f3/in/module/listindex 0 
+ 	 	 	 	 /myFOF/f3/mute 1 
+ 	 	 	 	 /myFOF/f3/offset 0 
+ 	 	 	 	 /myFOF/f3/ramp/time 0 
+ 	 	 	 	 /myFOF/f3/scale/bypass 1 
+ 	 	 	 	 /myFOF/f3/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/f3/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/f3/scale/max 0 
+ 	 	 	 	 /myFOF/f3/scale/min 0 
+ 	 	 	 	 /myFOF/f3/scale/mode 0 
+ 	 	 	 	 /myFOF/f3/slide/down 0 
+ 	 	 	 	 /myFOF/f3/slide/up 0 
+ 	 	 	 	 /myFOF/fof/1stAmp.1 0 
+ 	 	 	 	 /myFOF/fof/1stFreq.1 91.000000 
+ 	 	 	 	 /myFOF/fof/2ndAmp.1 -15 
+ 	 	 	 	 /myFOF/fof/2ndFreq.1 1380.000000 
+ 	 	 	 	 /myFOF/fof/3rdAmp.1 -34 
+ 	 	 	 	 /myFOF/fof/3rdFreq.1 3060.000000 
+ 	 	 	 	 /myFOF/fof/bandwith.1 1070.000000 
+ 	 	 	 	 /myFOF/fof/fundFreq.1 64.000000 
+ 	 	 	 	 /myFOF/fof/gain.1 -6 
+ 	 	 	 	 /myFOF/fof/mod/1stAmp.1 0 
+ 	 	 	 	 /myFOF/fof/mod/1stFreq.1 300.000000 
+ 	 	 	 	 /myFOF/fof/mod/2ndAmp.1 0 
+ 	 	 	 	 /myFOF/fof/mod/2ndFreq.1 800.000000 
+ 	 	 	 	 /myFOF/fof/mod/3rdAmp.1 0 
+ 	 	 	 	 /myFOF/fof/mod/3rdFreq.1 1000.000000 
+ 	 	 	 	 /myFOF/fof/mod/bandwith.1 1000.000000 
+ 	 	 	 	 /myFOF/fof/mod/fundFreq.1 60.000000 
+ 	 	 	 	 /myFOF/fof/mod/gain.1 0 
+ 	 	 	 	 /myFOF/fundFreq/in/module/listindex 0 
+ 	 	 	 	 /myFOF/fundFreq/mute 1 
+ 	 	 	 	 /myFOF/fundFreq/offset 0 
+ 	 	 	 	 /myFOF/fundFreq/ramp/time 0 
+ 	 	 	 	 /myFOF/fundFreq/scale/bypass 1 
+ 	 	 	 	 /myFOF/fundFreq/scale/input/max 1.000000 
+ 	 	 	 	 /myFOF/fundFreq/scale/input/min 0.000000 
+ 	 	 	 	 /myFOF/fundFreq/scale/max 0 
+ 	 	 	 	 /myFOF/fundFreq/scale/min 0 
+ 	 	 	 	 /myFOF/fundFreq/scale/mode 0 
+ 	 	 	 	 /myFOF/fundFreq/slide/down 0 
+ 	 	 	 	 /myFOF/fundFreq/slide/up 0 
+ 	 	 	 	 /myFOF/gain/in/module/listindex 0 
+ 	 	 	 	 /myFOF/gain/mute 0 
+ 	 	 	 	 /myFOF/gain/offset 0 
+ 	 	 	 	 /myFOF/gain/ramp/time 0 
+ 	 	 	 	 /myFOF/gain/scale/bypass 0 
+ 	 	 	 	 /myFOF/gain/scale/input/max 0 
+ 	 	 	 	 /myFOF/gain/scale/input/min 0 
+ 	 	 	 	 /myFOF/gain/scale/max 0 
+ 	 	 	 	 /myFOF/gain/scale/min 0 
+ 	 	 	 	 /myFOF/gain/scale/mode 0 
+ 	 	 	 	 /myFOF/gain/slide/down 0 
+ 	 	 	 	 /myFOF/gain/slide/up 0 
+ 	 	 	 	 /myFOF/mapperGate/bandW 0 
+ 	 	 	 	 /myFOF/mapperGate/f1 0 
+ 	 	 	 	 /myFOF/mapperGate/f1-amp 0 
+ 	 	 	 	 /myFOF/mapperGate/f2 0 
+ 	 	 	 	 /myFOF/mapperGate/f2-amp 0 
+ 	 	 	 	 /myFOF/mapperGate/f3 0 
+ 	 	 	 	 /myFOF/mapperGate/f3-amp 0 
+ 	 	 	 	 /myFOF/mapperGate/fundFreq 0 
+ 	 	 	 	 /myFOF/mapperGate/gain 0 
+ 	 	 	 	 /myFOF/numVoices 1 
+ 	 	 	 	 /myFOF/view/freeze 0 
+ 	 	 	 	 /myFOF/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

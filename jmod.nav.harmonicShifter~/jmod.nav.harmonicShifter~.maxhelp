@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 100.0, 100.0, 663.0, 768.0 ],
@@ -27,6 +27,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 329.0, 362.0, 315.0, 31.0 ],
+					"presentation_rect" : [ 330.0, 362.0, 0.0, 0.0 ],
+					"text" : "input 1 > harmonicss 1-4\ninput2 > harmonic 5-8"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "Reverb1" ],
 					"id" : "obj-60",
@@ -61,6 +77,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"linecount" : 8,
 					"maxclass" : "comment",
@@ -75,6 +92,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 9,
 					"maxclass" : "comment",
@@ -91,7 +109,7 @@
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.nav.harmonicShifter~.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 26.0, 344.0, 300.0, 175.0 ],
@@ -108,7 +126,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 669.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 663.0, 70.0 ],
 					"prototypename" : "bphelp",
 					"varname" : "maxhelpui"
 				}
@@ -239,7 +257,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-2", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 2 ]
@@ -276,10 +294,10 @@
  ],
 		"parameters" : 		{
 			"obj-60::obj-28::obj-18" : [ "width", "width", 0 ],
-			"obj-60::obj-28::obj-2" : [ "damp", "damp", 0 ],
-			"obj-60::obj-28::obj-15" : [ "decay", "decay", 0 ],
 			"obj-60::obj-28::obj-23" : [ "dry", "dry", 0 ],
-			"obj-60::obj-28::obj-22" : [ "wet", "wet", 0 ]
+			"obj-60::obj-28::obj-22" : [ "wet", "wet", 0 ],
+			"obj-60::obj-28::obj-15" : [ "decay", "decay", 0 ],
+			"obj-60::obj-28::obj-2" : [ "damp", "damp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -403,15 +421,15 @@
 			}
 , 			{
 				"name" : "jmod.rdp.reverb~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/JamomaUserLib/rdp.modules/Audio/rdp.reverb",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/JamomaUserLib/rdp.modules/Audio/rdp.reverb",
+				"bootpath" : "/Applications/Max6/Cycling '74/JamomaUserLib/rdpozo_Modules/Audio/rdp.reverb",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/JamomaUserLib/rdpozo_Modules/Audio/rdp.reverb",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.rdp.reverb~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/JamomaUserLib/rdp.modules/Audio/rdp.reverb/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/JamomaUserLib/rdp.modules/Audio/rdp.reverb/lib",
+				"bootpath" : "/Applications/Max6/Cycling '74/JamomaUserLib/rdpozo_Modules/Audio/rdp.reverb/lib",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/JamomaUserLib/rdpozo_Modules/Audio/rdp.reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
